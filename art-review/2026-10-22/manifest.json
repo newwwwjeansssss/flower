@@ -1,0 +1,192 @@
+[
+  {
+    "file": "01-current/FreezeTime.png",
+    "source": "UnityWork/Assets/Resources/FlowerFitObstacleArt/FreezeTime.png",
+    "width": 181,
+    "height": 196,
+    "sha256": "9568cc7c74dc39f8d35a0f6e343910ae666206c37c243b881e16abd183e1702f",
+    "role": "冻结关卡时间道具 / 邻接范围，建议同步更新",
+    "exact_source_matches": [
+      "shape-fill-reverse/sprites/394_ic_frozen_time.png"
+    ]
+  },
+  {
+    "file": "01-current/FrozenBlock.png",
+    "source": "UnityWork/Assets/Resources/FlowerFitObstacleArt/FrozenBlock.png",
+    "width": 160,
+    "height": 160,
+    "sha256": "02e4400408c8e7fa924681b28209d05a72da27109be0b5d25fb780502f598a1e",
+    "role": "整块冻结覆盖 / 必须重画",
+    "exact_source_matches": [
+      "shape-fill-reverse/sprites/225_Frozen_block.png"
+    ]
+  },
+  {
+    "file": "01-current/FrozenZone.png",
+    "source": "UnityWork/Assets/Resources/FlowerFitObstacleArt/FrozenZone.png",
+    "width": 101,
+    "height": 101,
+    "sha256": "6f28350f0254d4d49a0f6d49cf962bfc9d32ce3c8d3ba534fb61284e03096af1",
+    "role": "冰冻触发格 / 必须重画",
+    "exact_source_matches": [
+      "shape-fill-reverse/sprites/566_frozen_zone.png"
+    ]
+  },
+  {
+    "file": "01-current/GateBar.png",
+    "source": "UnityWork/Assets/Resources/FlowerFitObstacleArt/GateBar.png",
+    "width": 186,
+    "height": 29,
+    "sha256": "dc58047f7a7a94811134da0f183ada6441e30a34a0bdb6511d6583fee2967562",
+    "role": "关闭门栏 / 必须重画",
+    "exact_source_matches": [
+      "shape-fill-reverse/sprites/360_gate_bar.png"
+    ]
+  },
+  {
+    "file": "01-current/GateContact.png",
+    "source": "UnityWork/Assets/Resources/FlowerFitObstacleArt/GateContact.png",
+    "width": 128,
+    "height": 128,
+    "sha256": "919cacc14f6b4ca9461c7200ebcf272ee4abbbbb71c02e101b6830b29fa2bc85",
+    "role": "机关端子 / 必须重画",
+    "exact_source_matches": [
+      "shape-fill-reverse/sprites/508_gate_contact.png"
+    ]
+  },
+  {
+    "file": "02-reference/225_Frozen_block.png",
+    "source": "shape-fill-reverse/sprites/225_Frozen_block.png",
+    "width": 160,
+    "height": 160,
+    "sha256": "02e4400408c8e7fa924681b28209d05a72da27109be0b5d25fb780502f598a1e",
+    "role": "原版候选；不代表当前已接入",
+    "exact_source_matches": []
+  },
+  {
+    "file": "02-reference/299_gate_bar_glow.png",
+    "source": "shape-fill-reverse/sprites/299_gate_bar_glow.png",
+    "width": 210,
+    "height": 53,
+    "sha256": "0e41e9425637698229252f39b1091af226a5bb05e8fe40e4d5b5317cbce9da74",
+    "role": "原版候选；不代表当前已接入",
+    "exact_source_matches": []
+  },
+  {
+    "file": "02-reference/310_ice_overlay.png",
+    "source": "shape-fill-reverse/sprites/310_ice_overlay.png",
+    "width": 128,
+    "height": 128,
+    "sha256": "32503438fd977f63a91f6e586eef78eee0870fa2c705044fcf27773ae27d83a5",
+    "role": "原版候选；不代表当前已接入",
+    "exact_source_matches": []
+  },
+  {
+    "file": "02-reference/360_gate_bar.png",
+    "source": "shape-fill-reverse/sprites/360_gate_bar.png",
+    "width": 186,
+    "height": 29,
+    "sha256": "dc58047f7a7a94811134da0f183ada6441e30a34a0bdb6511d6583fee2967562",
+    "role": "原版候选；不代表当前已接入",
+    "exact_source_matches": []
+  },
+  {
+    "file": "02-reference/386_gate_bar.png",
+    "source": "shape-fill-reverse/sprites/386_gate_bar.png",
+    "width": 128,
+    "height": 128,
+    "sha256": "2b00c14d4c6988e1721a2f53e697885b1b50a944454cff219e7cc44550b8847a",
+    "role": "原版候选；不代表当前已接入",
+    "exact_source_matches": []
+  },
+  {
+    "file": "02-reference/394_ic_frozen_time.png",
+    "source": "shape-fill-reverse/sprites/394_ic_frozen_time.png",
+    "width": 181,
+    "height": 196,
+    "sha256": "9568cc7c74dc39f8d35a0f6e343910ae666206c37c243b881e16abd183e1702f",
+    "role": "原版候选；不代表当前已接入",
+    "exact_source_matches": []
+  },
+  {
+    "file": "02-reference/508_gate_contact.png",
+    "source": "shape-fill-reverse/sprites/508_gate_contact.png",
+    "width": 128,
+    "height": 128,
+    "sha256": "919cacc14f6b4ca9461c7200ebcf272ee4abbbbb71c02e101b6830b29fa2bc85",
+    "role": "原版候选；不代表当前已接入",
+    "exact_source_matches": []
+  },
+  {
+    "file": "02-reference/529_gate_contact_ring.png",
+    "source": "shape-fill-reverse/sprites/529_gate_contact_ring.png",
+    "width": 128,
+    "height": 128,
+    "sha256": "9387ebb4d509714c698a25adc9717097ce7cd6a0c7ee5247e0197c5b917f7278",
+    "role": "原版候选；不代表当前已接入",
+    "exact_source_matches": []
+  },
+  {
+    "file": "02-reference/566_frozen_zone.png",
+    "source": "shape-fill-reverse/sprites/566_frozen_zone.png",
+    "width": 101,
+    "height": 101,
+    "sha256": "6f28350f0254d4d49a0f6d49cf962bfc9d32ce3c8d3ba534fb61284e03096af1",
+    "role": "原版候选；不代表当前已接入",
+    "exact_source_matches": []
+  },
+  {
+    "file": "02-reference/599_frozen_zone.png",
+    "source": "shape-fill-reverse/sprites/599_frozen_zone.png",
+    "width": 128,
+    "height": 128,
+    "sha256": "09f4d330782b32d7484a8e780319693d30c588149de60016d032bbe70115451b",
+    "role": "原版候选；不代表当前已接入",
+    "exact_source_matches": []
+  },
+  {
+    "file": "02-reference/618_fr_time_frozen_0.png",
+    "source": "shape-fill-reverse/sprites/618_fr_time_frozen_0.png",
+    "width": 380,
+    "height": 138,
+    "sha256": "efb4970113891eb023017902934812e2d4a4cfcdaa1806b3ccf6f85dcfe7809c",
+    "role": "原版候选；不代表当前已接入",
+    "exact_source_matches": []
+  },
+  {
+    "file": "03-context/art-frozen.png",
+    "source": "shape-fill-reverse/flower-adaptation-verification/art-frozen.png",
+    "width": 750,
+    "height": 1624,
+    "sha256": "b3daf1f75aa3b9650e7f28c81b53cd9882196cdae03fde552a5ef17120822d4a",
+    "role": "历史验证截图；非本次运行截图",
+    "exact_source_matches": []
+  },
+  {
+    "file": "03-context/art-gate-closed.png",
+    "source": "shape-fill-reverse/flower-adaptation-verification/art-gate-closed.png",
+    "width": 750,
+    "height": 1624,
+    "sha256": "704f9b6aca598a19929abe7222f5730e735a3d25a7ea6983a59b7ceaf73d635c",
+    "role": "历史验证截图；非本次运行截图",
+    "exact_source_matches": []
+  },
+  {
+    "file": "03-context/art-gate-open.png",
+    "source": "shape-fill-reverse/flower-adaptation-verification/art-gate-open.png",
+    "width": 750,
+    "height": 1624,
+    "sha256": "55ca501b7cb117abd45a29c0c438cbcfb0a5414b6755427ea76563064f8e0755",
+    "role": "历史验证截图；非本次运行截图",
+    "exact_source_matches": []
+  },
+  {
+    "file": "03-context/freeze-booster.png",
+    "source": "shape-fill-reverse/flower-adaptation-verification/freeze-booster.png",
+    "width": 750,
+    "height": 1624,
+    "sha256": "efb9b2e6cb041e507c2230267c9bf4192e895af0a9c7d2138c7e2b25668fd031",
+    "role": "历史验证截图；非本次运行截图",
+    "exact_source_matches": []
+  }
+]

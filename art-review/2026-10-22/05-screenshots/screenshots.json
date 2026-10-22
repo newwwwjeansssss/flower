@@ -1,0 +1,62 @@
+[
+  {
+    "file": "01-phone-tutorial.png",
+    "title": "安卓实机 · 第 1 关教学与整体画风",
+    "caption": "展示奶白背景、木质目标板、泥土棋盘、绿叶装饰和教学手势，是新增机制应匹配的画风基准。",
+    "source": "shape-fill-reverse/phone-evidence/mobile-20261022/start.png",
+    "width": 1080,
+    "height": 2400,
+    "sha256": "666cbd1bd426a079f4e325d175b44ae89939b329246cbe5f1ba5c9be14176a52",
+    "capture": "既有截图，本次整理"
+  },
+  {
+    "file": "02-phone-flowers-and-freeze-tool.png",
+    "title": "安卓实机 · 花块与冻时道具",
+    "caption": "画面实际显示 Level 3，展示紫/红/绿花块及底部冻时沙漏 ×3。原文件名虽含 gm131，但不能据此标为第 131 关或机关门实测。",
+    "source": "shape-fill-reverse/phone-evidence/mobile-20261022/gm131.png",
+    "width": 1080,
+    "height": 2400,
+    "sha256": "1ff96140a5cef4293308b45d3f93b824d108668103e7c5cbf5d7c87d0ced4dce",
+    "capture": "既有截图，本次整理"
+  },
+  {
+    "file": "03-unity-frozen-block.png",
+    "title": "Unity 运行验证 · 冰冻花块",
+    "caption": "Level 9003：左上两格覆盖蓝色冰壳，各显示 5 秒。观察冰壳亮度、遮挡花色，以及每格重复倒计时。",
+    "source": "shape-fill-reverse/flower-adaptation-verification/art-frozen.png",
+    "width": 750,
+    "height": 1624,
+    "sha256": "b3daf1f75aa3b9650e7f28c81b53cd9882196cdae03fde552a5ef17120822d4a",
+    "capture": "既有截图，本次整理"
+  },
+  {
+    "file": "04-unity-gate-closed.png",
+    "title": "Unity 运行验证 · 机关门关闭",
+    "caption": "Level 9004：左上两个闪电端子未接通；右下竖向电光门栏可见，表示阻断。",
+    "source": "shape-fill-reverse/flower-adaptation-verification/art-gate-closed.png",
+    "width": 750,
+    "height": 1624,
+    "sha256": "704f9b6aca598a19929abe7222f5730e735a3d25a7ea6983a59b7ceaf73d635c",
+    "capture": "既有截图，本次整理"
+  },
+  {
+    "file": "05-unity-gate-open.png",
+    "title": "Unity 运行验证 · 机关门开启",
+    "caption": "Level 9004：左上花块连接两个端子，端子变为青绿色；右下原门栏位置已隐藏。与上一张成对比较。",
+    "source": "shape-fill-reverse/flower-adaptation-verification/art-gate-open.png",
+    "width": 750,
+    "height": 1624,
+    "sha256": "55ca501b7cb117abd45a29c0c438cbcfb0a5414b6755427ea76563064f8e0755",
+    "capture": "既有截图，本次整理"
+  },
+  {
+    "file": "06-unity-freeze-time-active.png",
+    "title": "Unity 运行验证 · 冻时道具与冰冻块并存",
+    "caption": "Level 9003：底部沙漏显示 ×2 和 05:00 [15s]；左上花块显示冰冻数字 5。两套计时属于不同机制，本图仅证明该显示状态，不单独证明计时过程。",
+    "source": "shape-fill-reverse/flower-adaptation-verification/freeze-booster.png",
+    "width": 750,
+    "height": 1624,
+    "sha256": "efb9b2e6cb041e507c2230267c9bf4192e895af0a9c7d2138c7e2b25668fd031",
+    "capture": "既有截图，本次整理"
+  }
+]
