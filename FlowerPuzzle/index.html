@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>花田工坊 — 花田拼图关卡编辑器</title>
+  <link rel="stylesheet" href="static/css/editor.css?v=20261022-mechanics-audit">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand"><div class="brand-mark">花</div><div class="brand-copy"><strong>花田工坊</strong><span>FLOWER PUZZLE EDITOR</span></div></div>
+      <div class="top-actions">
+        <button id="undo-button" class="tool-btn" aria-label="撤销">↶</button><button id="redo-button" class="tool-btn" aria-label="重做">↷</button><span id="save-state" class="save-state">正在初始化…</span>
+        <button id="refresh-button" class="action-btn"><span>↻</span><span class="label">刷新</span></button><button id="save-button" class="action-btn primary"><span>▣</span><span class="label">保存</span></button>
+      </div>
+    </header>
+
+    <main class="workspace">
+    <aside class="level-strip" aria-label="关卡列表">
+      <div class="level-sidebar-head"><span><strong>关卡列表</strong><small id="level-count">1 个关卡</small></span><button id="add-level" aria-label="添加关卡">＋</button></div>
+      <label class="collection-switch" for="level-collection">关卡集<select id="level-collection"><option value="flower">花田</option><option value="shape-fill">Shape Fill</option><option value="flower-trial">花田试玩 · 1–25 / 31–42关</option></select></label>
+      <div class="level-list" aria-live="polite"></div>
+    </aside>
+      <aside class="sidebar" aria-label="资源库">
+        <div class="panel-head"><span class="panel-title">资源库</span></div>
+        <label class="search"><span>⌕</span><input id="asset-search" type="search" placeholder="搜索花块资源…" aria-label="搜索花块资源"></label>
+        <div class="library" aria-live="polite"></div></aside>
+
+      <section class="canvas-area" aria-label="关卡画布">
+        <div class="canvas-title"><strong>游戏画布 · 示例关卡</strong><span id="edit-status">试玩模式 · Canvas</span></div><div class="canvas-actions"><button id="play-hint" class="hint-button" aria-label="试玩提示"><span aria-hidden="true">✦</span> 提示</button><button id="edit-toggle" class="edit-toggle">进入编辑</button></div>
+          <div class="canvas-viewport"><div class="game-frame"><canvas id="game-canvas" width="750" height="1624" aria-label="游戏 Canvas"></canvas><div id="play-result" class="play-result" role="dialog" aria-modal="true" aria-labelledby="result-title" hidden><div class="result-card"><span id="result-kicker">试玩结束</span><strong id="result-title">花田盛开啦！</strong><p id="result-message">恭喜完成当前关卡</p><div class="result-actions"><button id="retry-level">重试</button><button id="next-level" class="primary">下一关</button></div></div></div></div></div><div class="canvas-note"><span>逻辑尺寸读取 config.json</span><span>等比例适应画布</span></div><div class="board-actions"><button id="crop-empty-cells">裁剪空格子</button><button id="restore-all-cells">恢复全部格子</button></div><div class="zoom"><button aria-label="缩小">−</button><span>适应</span><button aria-label="放大">＋</button><button aria-label="适应画布">⊡</button></div>
+      </section>
+
+      <aside class="inspector" aria-label="属性检查器">
+        <div class="tabs"><button class="tab active" data-tab="global">全局</button><button class="tab" data-tab="level">关卡</button><button class="tab" data-tab="element">物品</button></div>
+        <div class="tab-panel active" data-panel="global"><section class="property-section"><div class="section-label"><span>项目配置</span><span>全局</span></div><div class="field"><label>项目名称</label><input id="project-name" class="control"></div><div class="field-row"><div class="field"><label>Canvas 宽度</label><input id="canvas-width" class="control" type="number"></div><div class="field"><label>Canvas 高度</label><input id="canvas-height" class="control" type="number"></div></div><div class="field-row"><div class="field"><label>默认网格宽度</label><input id="default-width" class="control" type="number"></div><div class="field"><label>默认网格高度</label><input id="default-height" class="control" type="number"></div></div><div class="field"><label>计分规则说明</label><input id="score-mode" class="control"></div><div class="field"><label>资源主题</label><input id="resource-theme" class="control"></div><div class="field"><label>解锁规则说明</label><input id="unlock-rule" class="control"></div></section></div>
+        <div class="tab-panel" data-panel="level"><section id="authoring-panel" class="property-section" aria-label="本关需求形状与编辑工具"></section><section id="mechanics-panel" class="property-section" aria-label="Shape Fill 机制"></section><section class="property-section"><div class="section-label"><span>关卡配置</span><span id="difficulty-level">—</span></div><div class="file-card"><strong id="level-file-name">level-1.json</strong><span id="level-file-path">level/level-1.json</span></div><div class="field"><label>名称</label><input id="level-name" class="control"></div><div class="field-row"><div class="field"><label>网格宽度</label><input id="level-width" class="control" type="number" min="1"></div><div class="field"><label>网格高度</label><input id="level-height" class="control" type="number" min="1"></div></div><div class="field"><label for="level-time-limit">时限（秒）</label><input id="level-time-limit" class="control" type="number" min="1" step="1" required aria-describedby="level-time-help"><small id="level-time-help">例如 120 表示 2 分钟；点击右上角保存生效。</small></div><div class="field"><label>关卡类型</label><input id="level-type" class="control"></div><div class="field"><label>目标、预置与围栏 JSON</label><textarea id="level-rules" class="control textarea"></textarea></div></section><section class="property-section"><div class="section-label"><span>动态难度分析</span><strong id="difficulty-score">—</strong></div><div id="difficulty-factors" class="difficulty-factors"></div></section></div>
+        <div class="tab-panel" data-panel="element"><section class="property-section"><div class="section-label"><span>花田格属性</span><span id="element-coordinate">A1</span></div><div class="field"><label>格子状态</label><select id="element-asset" class="control"></select></div><div class="field"><label>状态值</label><input id="element-value" class="control" readonly></div><button id="clear-element" class="panel-action danger">设为非活跃格</button></section></div>
+      </aside>
+    </main>
+    <footer class="statusbar"><span>场景：游戏 Canvas</span><span>编辑模式：右键打开格子菜单</span><span><span class="kbd">Delete</span> 删除格子</span><span><span class="kbd">Esc</span> 关闭菜单</span><span class="ready">画布就绪</span></footer>
+  </div>
+  <div id="cell-context-menu" class="cell-context-menu" hidden role="menu" aria-label="格子编辑菜单"><button data-cell-action="restore" role="menuitem">还原格子</button><button data-cell-action="remove" class="danger-item" role="menuitem">删除格子</button><button data-cell-action="preset-pot" role="menuitem">设置预置花盆</button><button data-cell-action="fixed-flower" role="menuitem">添加固定花朵</button><div class="context-separator"></div><span>添加 / 删除栅栏</span><div class="fence-directions"><button data-fence-direction="up" role="menuitem">↑ 上</button><button data-fence-direction="down" role="menuitem">↓ 下</button><button data-fence-direction="left" role="menuitem">← 左</button><button data-fence-direction="right" role="menuitem">→ 右</button></div></div>
+  <dialog id="asset-dialog" class="asset-dialog"><form id="asset-form" method="dialog"><div class="dialog-head"><strong id="asset-dialog-title">添加花块形状</strong><button value="cancel" aria-label="关闭">×</button></div><input id="asset-original-id" type="hidden"><div class="field-row"><div class="field"><label>资源 ID</label><input id="asset-id" class="control" required pattern="[a-zA-Z0-9_-]+"></div><div class="field"><label>名称</label><input id="asset-name" class="control" required></div></div><div class="field-row"><div class="field"><label>颜色</label><input id="asset-color" class="control" value="#4f8cff"></div><div class="field"><label>形状格 JSON</label><input id="asset-shape" class="control" value="[[0,0]]"></div></div><div class="field-row"><div class="field"><label>类型</label><select id="asset-type" class="control"><option value="custom">花块形状</option></select></div><div class="field"><label>难度权重</label><input id="asset-weight" class="control" type="number" min="0.1" step="0.1" value="1"></div></div><div class="field"><label>本地图片（可选）</label><input id="asset-image" class="control" type="file" accept="image/*"></div><div class="dialog-actions"><button id="delete-asset" type="button" class="danger">删除资源</button><span></span><button value="cancel">取消</button><button id="confirm-asset" type="submit" class="primary">确认</button></div><p id="asset-error" class="form-error"></p></form></dialog>
+  <script src="flower-runtime.js?v=20261022-mechanics-audit"></script>
+  <script type="module" src="static/js/editor.js?v=20261026-trial"></script>
+</body>
+</html>

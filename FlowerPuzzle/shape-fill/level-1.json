@@ -1,0 +1,66 @@
+{
+  "id": 100001,
+  "sourceId": 1,
+  "collection": "shape-fill",
+  "name": "Shape Fill 1",
+  "type": "flower-puzzle",
+  "timeLimit": 120,
+  "width": 2,
+  "height": 1,
+  "activeCells": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "targets": [
+    {
+      "id": "target-1",
+      "assetId": "domino",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "solutionCells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "transform": "R0",
+      "variant": "R0"
+    }
+  ],
+  "requirements": [
+    {
+      "assetId": "domino",
+      "count": 1
+    }
+  ],
+  "given": {
+    "fixedFlowers": [],
+    "presetPots": []
+  },
+  "fences": [],
+  "bricks": [],
+  "frozen": [],
+  "gates": []
+}

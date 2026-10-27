@@ -1,0 +1,290 @@
+{
+  "id": 100004,
+  "sourceId": 4,
+  "collection": "shape-fill",
+  "name": "Shape Fill 4",
+  "type": "flower-puzzle",
+  "timeLimit": 120,
+  "width": 6,
+  "height": 3,
+  "activeCells": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      5,
+      2
+    ]
+  ],
+  "targets": [
+    {
+      "id": "target-1",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "solutionCells": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "origin": [
+        0,
+        1
+      ],
+      "transform": "R270",
+      "variant": "R270"
+    },
+    {
+      "id": "target-2",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "solutionCells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "transform": "R90",
+      "variant": "R90"
+    },
+    {
+      "id": "target-3",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "solutionCells": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "origin": [
+        2,
+        0
+      ],
+      "transform": "R90",
+      "variant": "R90"
+    },
+    {
+      "id": "target-4",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "solutionCells": [
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "origin": [
+        2,
+        1
+      ],
+      "transform": "R270",
+      "variant": "R270"
+    },
+    {
+      "id": "target-5",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "solutionCells": [
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "origin": [
+        4,
+        1
+      ],
+      "transform": "R0",
+      "variant": "R0"
+    }
+  ],
+  "requirements": [
+    {
+      "assetId": "L3",
+      "count": 5
+    }
+  ],
+  "given": {
+    "fixedFlowers": [],
+    "presetPots": []
+  },
+  "fences": [
+    {
+      "a": [
+        1,
+        1
+      ],
+      "b": [
+        2,
+        1
+      ],
+      "role": "challenge"
+    }
+  ],
+  "bricks": [],
+  "frozen": [],
+  "gates": []
+}

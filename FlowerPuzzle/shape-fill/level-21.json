@@ -1,0 +1,357 @@
+{
+  "id": 100021,
+  "sourceId": 21,
+  "collection": "shape-fill",
+  "name": "Shape Fill 21",
+  "type": "flower-puzzle",
+  "timeLimit": 120,
+  "width": 6,
+  "height": 4,
+  "activeCells": [
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      3
+    ]
+  ],
+  "targets": [
+    {
+      "id": "target-1",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "solutionCells": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "transform": "R270",
+      "variant": "R270"
+    },
+    {
+      "id": "target-2",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "solutionCells": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "origin": [
+        2,
+        0
+      ],
+      "transform": "R180",
+      "variant": "R180"
+    },
+    {
+      "id": "target-3",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "solutionCells": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "origin": [
+        2,
+        1
+      ],
+      "transform": "R0",
+      "variant": "R0"
+    },
+    {
+      "id": "target-4",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "solutionCells": [
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "origin": [
+        4,
+        0
+      ],
+      "transform": "R0",
+      "variant": "R0"
+    },
+    {
+      "id": "target-5",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "solutionCells": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "origin": [
+        1,
+        2
+      ],
+      "transform": "R0",
+      "variant": "R0"
+    },
+    {
+      "id": "target-6",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "solutionCells": [
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "origin": [
+        3,
+        2
+      ],
+      "transform": "R270",
+      "variant": "R270"
+    }
+  ],
+  "requirements": [
+    {
+      "assetId": "L3",
+      "count": 6
+    }
+  ],
+  "given": {
+    "fixedFlowers": [],
+    "presetPots": []
+  },
+  "fences": [],
+  "bricks": [
+    {
+      "cell": [
+        2,
+        1
+      ],
+      "count": 1
+    },
+    {
+      "cell": [
+        3,
+        1
+      ],
+      "count": 1
+    },
+    {
+      "cell": [
+        2,
+        2
+      ],
+      "count": 1
+    },
+    {
+      "cell": [
+        3,
+        2
+      ],
+      "count": 1
+    }
+  ],
+  "frozen": [],
+  "gates": []
+}

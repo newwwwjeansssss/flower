@@ -1,0 +1,226 @@
+{
+  "id": 21,
+  "name": "预置地块小课堂",
+  "type": "flower-puzzle",
+  "width": 3,
+  "height": 4,
+  "activeCells": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "given": {
+    "fixedFlowers": [],
+    "presetPots": [
+      {
+        "cell": [
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          1,
+          0
+        ]
+      }
+    ]
+  },
+  "fences": [],
+  "targets": [
+    {
+      "id": "target-1",
+      "assetId": "square4",
+      "origin": [
+        0,
+        0
+      ],
+      "transform": "R0",
+      "variant": "R0",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "solutionCells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "target-2",
+      "assetId": "I4",
+      "origin": [
+        2,
+        0
+      ],
+      "transform": "R90",
+      "variant": "R90",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "solutionCells": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "target-3",
+      "assetId": "square4",
+      "origin": [
+        0,
+        2
+      ],
+      "transform": "R0",
+      "variant": "R0",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "solutionCells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "assetId": "square4",
+      "count": 2
+    },
+    {
+      "assetId": "I4",
+      "count": 1
+    }
+  ],
+  "timeLimit": 120
+}

@@ -1,0 +1,2 @@
+# macOS Cocoa/WKWebView runtime; Python 3.11–3.13
+pywebview==6.2.1

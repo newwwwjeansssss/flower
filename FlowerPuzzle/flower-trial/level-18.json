@@ -1,0 +1,426 @@
+{
+  "id": 200018,
+  "sourceId": 18,
+  "collection": "flower-trial",
+  "name": "试玩 18 · 围栏花径",
+  "type": "flower-puzzle",
+  "width": 5,
+  "height": 7,
+  "activeCells": [
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      6
+    ]
+  ],
+  "given": {
+    "fixedFlowers": [
+      {
+        "cell": [
+          1,
+          0
+        ],
+        "color": "coral"
+      },
+      {
+        "cell": [
+          2,
+          0
+        ],
+        "color": "coral"
+      },
+      {
+        "cell": [
+          1,
+          1
+        ],
+        "color": "coral"
+      },
+      {
+        "cell": [
+          2,
+          1
+        ],
+        "color": "coral"
+      },
+      {
+        "cell": [
+          1,
+          2
+        ],
+        "color": "coral"
+      },
+      {
+        "cell": [
+          2,
+          2
+        ],
+        "color": "coral"
+      }
+    ],
+    "presetPots": []
+  },
+  "fences": [
+    {
+      "a": [
+        2,
+        4
+      ],
+      "b": [
+        3,
+        4
+      ],
+      "role": "hint"
+    },
+    {
+      "a": [
+        0,
+        4
+      ],
+      "b": [
+        1,
+        4
+      ],
+      "role": "hint"
+    },
+    {
+      "a": [
+        3,
+        3
+      ],
+      "b": [
+        3,
+        4
+      ],
+      "role": "hint"
+    }
+  ],
+  "targets": [
+    {
+      "id": "target-1",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R0",
+      "variant": "R0",
+      "origin": [
+        3,
+        4
+      ],
+      "solutionCells": [
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "target-2",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R180",
+      "variant": "R180",
+      "origin": [
+        3,
+        3
+      ],
+      "solutionCells": [
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "target-3",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R270",
+      "variant": "R270",
+      "origin": [
+        1,
+        3
+      ],
+      "solutionCells": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "target-4",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R90",
+      "variant": "R90",
+      "origin": [
+        0,
+        3
+      ],
+      "solutionCells": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "target-5",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R0",
+      "variant": "R0",
+      "origin": [
+        2,
+        5
+      ],
+      "solutionCells": [
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "target-6",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R180",
+      "variant": "R180",
+      "origin": [
+        0,
+        5
+      ],
+      "solutionCells": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ]
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "assetId": "L3",
+      "count": 6
+    }
+  ],
+  "timeLimit": 135
+}

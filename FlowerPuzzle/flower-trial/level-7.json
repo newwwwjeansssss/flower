@@ -1,0 +1,277 @@
+{
+  "id": 200007,
+  "sourceId": 7,
+  "collection": "flower-trial",
+  "name": "试玩 07 · 折线初见",
+  "type": "flower-puzzle",
+  "width": 4,
+  "height": 6,
+  "activeCells": [
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      5
+    ]
+  ],
+  "given": {
+    "fixedFlowers": [],
+    "presetPots": []
+  },
+  "fences": [],
+  "targets": [
+    {
+      "id": "target-1",
+      "assetId": "square4",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R0",
+      "variant": "R0",
+      "origin": [
+        2,
+        1
+      ],
+      "solutionCells": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "target-2",
+      "assetId": "Z4",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "transform": "MR0",
+      "variant": "MR0",
+      "origin": [
+        0,
+        0
+      ],
+      "solutionCells": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "target-3",
+      "assetId": "Z4",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "transform": "R0",
+      "variant": "R0",
+      "origin": [
+        0,
+        2
+      ],
+      "solutionCells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "target-4",
+      "assetId": "square4",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R0",
+      "variant": "R0",
+      "origin": [
+        2,
+        4
+      ],
+      "solutionCells": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "assetId": "Z4",
+      "count": 2
+    },
+    {
+      "assetId": "square4",
+      "count": 2
+    }
+  ],
+  "timeLimit": 120
+}

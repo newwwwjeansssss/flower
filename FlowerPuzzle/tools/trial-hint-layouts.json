@@ -1,0 +1,255 @@
+{
+  "13": {
+    "pattern": [
+      ".EEEDD",
+      "FECA.D",
+      "F.CAAB",
+      "FFCCBB"
+    ],
+    "fences": [],
+    "presetCells": []
+  },
+  "19": {
+    "pattern": [
+      ".EEEF.",
+      "DDEFFF",
+      "DBAAAC",
+      "BBBACC",
+      ".##...",
+      ".##..."
+    ],
+    "fences": [
+      {
+        "a": [
+          3,
+          1
+        ],
+        "b": [
+          3,
+          2
+        ],
+        "role": "challenge"
+      },
+      {
+        "a": [
+          4,
+          1
+        ],
+        "b": [
+          4,
+          2
+        ],
+        "role": "challenge"
+      },
+      {
+        "a": [
+          2,
+          1
+        ],
+        "b": [
+          2,
+          2
+        ],
+        "role": "hint"
+      }
+    ],
+    "presetCells": []
+  },
+  "22": {
+    "pattern": [
+      "...FFF",
+      "EECCCF",
+      "EDCABB",
+      "EDDAAB"
+    ],
+    "fences": [
+      {
+        "a": [
+          1,
+          1
+        ],
+        "b": [
+          1,
+          2
+        ],
+        "role": "hint"
+      },
+      {
+        "a": [
+          2,
+          2
+        ],
+        "b": [
+          3,
+          2
+        ],
+        "role": "hint"
+      },
+      {
+        "a": [
+          3,
+          0
+        ],
+        "b": [
+          3,
+          1
+        ],
+        "role": "hint"
+      }
+    ],
+    "presetCells": [
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        5,
+        0
+      ]
+    ]
+  },
+  "23": {
+    "pattern": [
+      "CDDDE.",
+      "CCCDE.",
+      "ABBEE.",
+      "A.BF##",
+      "AABF##",
+      "..FF.."
+    ],
+    "fences": [
+      {
+        "a": [
+          1,
+          0
+        ],
+        "b": [
+          1,
+          1
+        ],
+        "role": "hint"
+      },
+      {
+        "a": [
+          2,
+          1
+        ],
+        "b": [
+          2,
+          2
+        ],
+        "role": "hint"
+      }
+    ],
+    "presetCells": [
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ]
+    ]
+  },
+  "25": {
+    "pattern": [
+      ".FFFGG",
+      ".FEEEG",
+      "HDDDEG",
+      "HHDCCC",
+      "HAAABC",
+      "..ABBB"
+    ],
+    "fences": [
+      {
+        "a": [
+          2,
+          1
+        ],
+        "b": [
+          2,
+          2
+        ],
+        "role": "hint"
+      },
+      {
+        "a": [
+          3,
+          2
+        ],
+        "b": [
+          4,
+          2
+        ],
+        "role": "challenge"
+      },
+      {
+        "a": [
+          4,
+          3
+        ],
+        "b": [
+          4,
+          4
+        ],
+        "role": "challenge"
+      },
+      {
+        "a": [
+          3,
+          4
+        ],
+        "b": [
+          3,
+          5
+        ],
+        "role": "hint"
+      },
+      {
+        "a": [
+          2,
+          3
+        ],
+        "b": [
+          3,
+          3
+        ],
+        "role": "hint"
+      },
+      {
+        "a": [
+          1,
+          3
+        ],
+        "b": [
+          2,
+          3
+        ],
+        "role": "hint"
+      }
+    ],
+    "presetCells": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        3
+      ]
+    ]
+  }
+}

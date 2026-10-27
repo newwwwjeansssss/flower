@@ -1,0 +1,895 @@
+[
+  {
+    "level": 31,
+    "inputDigest": "db9863459607d4e7e56159f2e14300067933f5f37cb4ff3466898ab4bd6b5ccf",
+    "localEntries": [
+      {
+        "continuations": [
+          {
+            "nextChoicesAtOverlap": 2,
+            "solvableNextChoices": 1
+          }
+        ],
+        "overlapCell": [
+          1,
+          0
+        ],
+        "entryCell": [
+          1,
+          1
+        ],
+        "entryBoundaryEdges": 0,
+        "entryFenceEdges": 1,
+        "choicesWithoutFences": 3,
+        "legalChoices": 1,
+        "choicesReachingOverlap": 1,
+        "solvableChoices": 1
+      }
+    ],
+    "forcedPlacementsBeforeChoice": 6,
+    "coverageRemainingAfterForcedMoves": 0,
+    "fenceImpacts": [
+      {
+        "a": [
+          1,
+          1
+        ],
+        "b": [
+          2,
+          1
+        ],
+        "excludedPlacements": 2
+      }
+    ],
+    "activeCells": 17,
+    "boardDensity": 0.68,
+    "enclosedHoleCells": 0,
+    "ordinaryFlowersTouchingCoreAtTwoCells": 2,
+    "sharedCellsPerCorePair": [
+      1
+    ],
+    "legalOpeningPlacements": 13,
+    "solvableOpeningPlacements": 6,
+    "deadOpeningPlacements": 7
+  },
+  {
+    "level": 32,
+    "inputDigest": "884d5acef9604ec340a9c62b15ad8f0fb2091e9f2fcd6c95ab1c268f99b59dfd",
+    "localEntries": [
+      {
+        "continuations": [
+          {
+            "nextChoicesAtOverlap": 2,
+            "solvableNextChoices": 1
+          }
+        ],
+        "overlapCell": [
+          3,
+          2
+        ],
+        "entryCell": [
+          4,
+          1
+        ],
+        "entryBoundaryEdges": 3,
+        "entryFenceEdges": 0,
+        "choicesWithoutFences": 2,
+        "legalChoices": 1,
+        "choicesReachingOverlap": 1,
+        "solvableChoices": 1
+      }
+    ],
+    "forcedPlacementsBeforeChoice": 6,
+    "coverageRemainingAfterForcedMoves": 0,
+    "fenceImpacts": [
+      {
+        "a": [
+          3,
+          0
+        ],
+        "b": [
+          3,
+          1
+        ],
+        "excludedPlacements": 3
+      }
+    ],
+    "activeCells": 17,
+    "boardDensity": 0.68,
+    "enclosedHoleCells": 0,
+    "ordinaryFlowersTouchingCoreAtTwoCells": 2,
+    "sharedCellsPerCorePair": [
+      1
+    ],
+    "legalOpeningPlacements": 34,
+    "solvableOpeningPlacements": 6,
+    "deadOpeningPlacements": 28
+  },
+  {
+    "level": 33,
+    "inputDigest": "0893c8d69c7d557c26a9267d6424b98fff2e4efacce8179b8b991986c323171f",
+    "localEntries": [
+      {
+        "continuations": [
+          {
+            "nextChoicesAtOverlap": 4,
+            "solvableNextChoices": 2
+          }
+        ],
+        "overlapCell": [
+          2,
+          1
+        ],
+        "entryCell": [
+          3,
+          2
+        ],
+        "entryBoundaryEdges": 1,
+        "entryFenceEdges": 2,
+        "choicesWithoutFences": 9,
+        "legalChoices": 1,
+        "choicesReachingOverlap": 1,
+        "solvableChoices": 1
+      }
+    ],
+    "forcedPlacementsBeforeChoice": 1,
+    "coverageRemainingAfterForcedMoves": 16,
+    "fenceImpacts": [
+      {
+        "a": [
+          3,
+          2
+        ],
+        "b": [
+          3,
+          3
+        ],
+        "excludedPlacements": 4
+      },
+      {
+        "a": [
+          2,
+          2
+        ],
+        "b": [
+          3,
+          2
+        ],
+        "excludedPlacements": 5
+      },
+      {
+        "a": [
+          1,
+          1
+        ],
+        "b": [
+          2,
+          1
+        ],
+        "excludedPlacements": 5
+      }
+    ],
+    "activeCells": 18,
+    "boardDensity": 0.72,
+    "enclosedHoleCells": 0,
+    "ordinaryFlowersTouchingCoreAtTwoCells": 2,
+    "sharedCellsPerCorePair": [
+      1
+    ],
+    "legalOpeningPlacements": 37,
+    "solvableOpeningPlacements": 10,
+    "deadOpeningPlacements": 27
+  },
+  {
+    "level": 34,
+    "inputDigest": "59abc6e18912101cb4fd3c152a5909962d3f3dcd58adbbb7de1793ab4a6856de",
+    "localEntries": [
+      {
+        "continuations": [
+          {
+            "nextChoicesAtOverlap": 4,
+            "solvableNextChoices": 4
+          }
+        ],
+        "overlapCell": [
+          3,
+          1
+        ],
+        "entryCell": [
+          4,
+          0
+        ],
+        "entryBoundaryEdges": 3,
+        "entryFenceEdges": 0,
+        "choicesWithoutFences": 1,
+        "legalChoices": 1,
+        "choicesReachingOverlap": 1,
+        "solvableChoices": 1
+      }
+    ],
+    "forcedPlacementsBeforeChoice": 1,
+    "coverageRemainingAfterForcedMoves": 17,
+    "fenceImpacts": [],
+    "activeCells": 19,
+    "boardDensity": 0.76,
+    "enclosedHoleCells": 0,
+    "ordinaryFlowersTouchingCoreAtTwoCells": 2,
+    "sharedCellsPerCorePair": [
+      1
+    ],
+    "legalOpeningPlacements": 82,
+    "solvableOpeningPlacements": 21,
+    "deadOpeningPlacements": 61
+  },
+  {
+    "level": 35,
+    "inputDigest": "4b21d4650e248817ed58e83628af74c2bdf89b99073a1b6e5fbc37c2ec5c8801",
+    "localEntries": [
+      {
+        "continuations": [
+          {
+            "nextChoicesAtOverlap": 2,
+            "solvableNextChoices": 1
+          }
+        ],
+        "overlapCell": [
+          3,
+          3
+        ],
+        "entryCell": [
+          4,
+          1
+        ],
+        "entryBoundaryEdges": 3,
+        "entryFenceEdges": 0,
+        "choicesWithoutFences": 3,
+        "legalChoices": 1,
+        "choicesReachingOverlap": 1,
+        "solvableChoices": 1
+      }
+    ],
+    "forcedPlacementsBeforeChoice": 1,
+    "coverageRemainingAfterForcedMoves": 16,
+    "fenceImpacts": [
+      {
+        "a": [
+          2,
+          1
+        ],
+        "b": [
+          3,
+          1
+        ],
+        "excludedPlacements": 8
+      },
+      {
+        "a": [
+          1,
+          3
+        ],
+        "b": [
+          2,
+          3
+        ],
+        "excludedPlacements": 6
+      }
+    ],
+    "activeCells": 19,
+    "boardDensity": 0.76,
+    "enclosedHoleCells": 0,
+    "ordinaryFlowersTouchingCoreAtTwoCells": 2,
+    "sharedCellsPerCorePair": [
+      1
+    ],
+    "legalOpeningPlacements": 44,
+    "solvableOpeningPlacements": 5,
+    "deadOpeningPlacements": 39
+  },
+  {
+    "level": 36,
+    "inputDigest": "c19667ccf503e3b11828d5718ac2bf0cb4970d6aa3a1eff686cc17847205a127",
+    "localEntries": [
+      {
+        "continuations": [
+          {
+            "nextChoicesAtOverlap": 3,
+            "solvableNextChoices": 1
+          }
+        ],
+        "overlapCell": [
+          3,
+          1
+        ],
+        "entryCell": [
+          4,
+          0
+        ],
+        "entryBoundaryEdges": 3,
+        "entryFenceEdges": 0,
+        "choicesWithoutFences": 3,
+        "legalChoices": 1,
+        "choicesReachingOverlap": 1,
+        "solvableChoices": 1
+      }
+    ],
+    "forcedPlacementsBeforeChoice": 1,
+    "coverageRemainingAfterForcedMoves": 17,
+    "fenceImpacts": [
+      {
+        "a": [
+          2,
+          0
+        ],
+        "b": [
+          3,
+          0
+        ],
+        "excludedPlacements": 7
+      },
+      {
+        "a": [
+          2,
+          1
+        ],
+        "b": [
+          2,
+          2
+        ],
+        "excludedPlacements": 12
+      }
+    ],
+    "activeCells": 20,
+    "boardDensity": 0.8,
+    "enclosedHoleCells": 0,
+    "ordinaryFlowersTouchingCoreAtTwoCells": 2,
+    "sharedCellsPerCorePair": [
+      1
+    ],
+    "legalOpeningPlacements": 67,
+    "solvableOpeningPlacements": 10,
+    "deadOpeningPlacements": 57
+  },
+  {
+    "level": 37,
+    "inputDigest": "35e3ffe065d8a6c565aafc138755a88dc3b180ccb7adb86518fb48100ec8ec22",
+    "localEntries": [
+      {
+        "continuations": [
+          {
+            "nextChoicesAtOverlap": 2,
+            "solvableNextChoices": 2
+          }
+        ],
+        "overlapCell": [
+          0,
+          0
+        ],
+        "entryCell": [
+          2,
+          0
+        ],
+        "entryBoundaryEdges": 2,
+        "entryFenceEdges": 1,
+        "choicesWithoutFences": 6,
+        "legalChoices": 1,
+        "choicesReachingOverlap": 1,
+        "solvableChoices": 1
+      },
+      {
+        "continuations": [
+          {
+            "nextChoicesAtOverlap": 6,
+            "solvableNextChoices": 5
+          },
+          {
+            "nextChoicesAtOverlap": 5,
+            "solvableNextChoices": 4
+          },
+          {
+            "nextChoicesAtOverlap": 4,
+            "solvableNextChoices": 4
+          }
+        ],
+        "overlapCell": [
+          3,
+          2
+        ],
+        "entryCell": [
+          4,
+          2
+        ],
+        "entryBoundaryEdges": 3,
+        "entryFenceEdges": 0,
+        "choicesWithoutFences": 3,
+        "legalChoices": 3,
+        "choicesReachingOverlap": 3,
+        "solvableChoices": 3
+      }
+    ],
+    "forcedPlacementsBeforeChoice": 1,
+    "coverageRemainingAfterForcedMoves": 21,
+    "fenceImpacts": [
+      {
+        "a": [
+          1,
+          0
+        ],
+        "b": [
+          1,
+          1
+        ],
+        "excludedPlacements": 5
+      },
+      {
+        "a": [
+          2,
+          0
+        ],
+        "b": [
+          2,
+          1
+        ],
+        "excludedPlacements": 4
+      }
+    ],
+    "activeCells": 22,
+    "boardDensity": 0.733,
+    "enclosedHoleCells": 0,
+    "ordinaryFlowersTouchingCoreAtTwoCells": 2,
+    "sharedCellsPerCorePair": [
+      1,
+      1
+    ],
+    "legalOpeningPlacements": 66,
+    "solvableOpeningPlacements": 50,
+    "deadOpeningPlacements": 16
+  },
+  {
+    "level": 38,
+    "inputDigest": "7303c3f66c0c075f4d7e624c2d79c384ae705b67b658d62d4fccd1938bb81e42",
+    "localEntries": [
+      {
+        "continuations": [
+          {
+            "nextChoicesAtOverlap": 2,
+            "solvableNextChoices": 2
+          }
+        ],
+        "overlapCell": [
+          0,
+          2
+        ],
+        "entryCell": [
+          0,
+          1
+        ],
+        "entryBoundaryEdges": 2,
+        "entryFenceEdges": 1,
+        "choicesWithoutFences": 4,
+        "legalChoices": 1,
+        "choicesReachingOverlap": 1,
+        "solvableChoices": 1
+      },
+      {
+        "continuations": [
+          {
+            "nextChoicesAtOverlap": 8,
+            "solvableNextChoices": 2
+          }
+        ],
+        "overlapCell": [
+          1,
+          2
+        ],
+        "entryCell": [
+          0,
+          1
+        ],
+        "entryBoundaryEdges": 2,
+        "entryFenceEdges": 1,
+        "choicesWithoutFences": 4,
+        "legalChoices": 1,
+        "choicesReachingOverlap": 1,
+        "solvableChoices": 1
+      }
+    ],
+    "forcedPlacementsBeforeChoice": 1,
+    "coverageRemainingAfterForcedMoves": 18,
+    "fenceImpacts": [
+      {
+        "a": [
+          0,
+          1
+        ],
+        "b": [
+          1,
+          1
+        ],
+        "excludedPlacements": 3
+      }
+    ],
+    "activeCells": 19,
+    "boardDensity": 0.76,
+    "enclosedHoleCells": 0,
+    "ordinaryFlowersTouchingCoreAtTwoCells": 2,
+    "sharedCellsPerCorePair": [
+      2
+    ],
+    "legalOpeningPlacements": 42,
+    "solvableOpeningPlacements": 12,
+    "deadOpeningPlacements": 30
+  },
+  {
+    "level": 39,
+    "inputDigest": "fc3cc75d7cc85d29ed49def1645c8c3f3a7500757df0d671438d5b26506f422e",
+    "localEntries": [
+      {
+        "continuations": [
+          {
+            "nextChoicesAtOverlap": 4,
+            "solvableNextChoices": 2
+          },
+          {
+            "nextChoicesAtOverlap": 0,
+            "solvableNextChoices": 0
+          }
+        ],
+        "overlapCell": [
+          2,
+          5
+        ],
+        "entryCell": [
+          3,
+          5
+        ],
+        "entryBoundaryEdges": 2,
+        "entryFenceEdges": 1,
+        "choicesWithoutFences": 8,
+        "legalChoices": 2,
+        "choicesReachingOverlap": 2,
+        "solvableChoices": 1
+      },
+      {
+        "continuations": [
+          {
+            "nextChoicesAtOverlap": 4,
+            "solvableNextChoices": 2
+          },
+          {
+            "nextChoicesAtOverlap": 4,
+            "solvableNextChoices": 2
+          },
+          {
+            "nextChoicesAtOverlap": 5,
+            "solvableNextChoices": 2
+          }
+        ],
+        "overlapCell": [
+          3,
+          3
+        ],
+        "entryCell": [
+          3,
+          4
+        ],
+        "entryBoundaryEdges": 1,
+        "entryFenceEdges": 2,
+        "choicesWithoutFences": 14,
+        "legalChoices": 3,
+        "choicesReachingOverlap": 3,
+        "solvableChoices": 3
+      }
+    ],
+    "forcedPlacementsBeforeChoice": 0,
+    "coverageRemainingAfterForcedMoves": 25,
+    "fenceImpacts": [
+      {
+        "a": [
+          2,
+          4
+        ],
+        "b": [
+          3,
+          4
+        ],
+        "excludedPlacements": 7
+      },
+      {
+        "a": [
+          3,
+          4
+        ],
+        "b": [
+          3,
+          5
+        ],
+        "excludedPlacements": 5
+      },
+      {
+        "a": [
+          1,
+          4
+        ],
+        "b": [
+          1,
+          5
+        ],
+        "excludedPlacements": 6
+      }
+    ],
+    "activeCells": 23,
+    "boardDensity": 0.767,
+    "enclosedHoleCells": 0,
+    "ordinaryFlowersTouchingCoreAtTwoCells": 2,
+    "sharedCellsPerCorePair": [
+      1,
+      1
+    ],
+    "legalOpeningPlacements": 88,
+    "solvableOpeningPlacements": 22,
+    "deadOpeningPlacements": 66
+  },
+  {
+    "level": 40,
+    "inputDigest": "206482cfe291a3a4820a593e8fe085f2784a4ba2db39fed721d83583523a5820",
+    "localEntries": [
+      {
+        "continuations": [
+          {
+            "nextChoicesAtOverlap": 8,
+            "solvableNextChoices": 2
+          }
+        ],
+        "overlapCell": [
+          2,
+          0
+        ],
+        "entryCell": [
+          4,
+          0
+        ],
+        "entryBoundaryEdges": 3,
+        "entryFenceEdges": 0,
+        "choicesWithoutFences": 2,
+        "legalChoices": 1,
+        "choicesReachingOverlap": 1,
+        "solvableChoices": 1
+      },
+      {
+        "continuations": [
+          {
+            "nextChoicesAtOverlap": 2,
+            "solvableNextChoices": 2
+          }
+        ],
+        "overlapCell": [
+          3,
+          0
+        ],
+        "entryCell": [
+          4,
+          0
+        ],
+        "entryBoundaryEdges": 3,
+        "entryFenceEdges": 0,
+        "choicesWithoutFences": 2,
+        "legalChoices": 1,
+        "choicesReachingOverlap": 1,
+        "solvableChoices": 1
+      }
+    ],
+    "forcedPlacementsBeforeChoice": 1,
+    "coverageRemainingAfterForcedMoves": 18,
+    "fenceImpacts": [
+      {
+        "a": [
+          3,
+          0
+        ],
+        "b": [
+          3,
+          1
+        ],
+        "excludedPlacements": 4
+      }
+    ],
+    "activeCells": 19,
+    "boardDensity": 0.76,
+    "enclosedHoleCells": 0,
+    "ordinaryFlowersTouchingCoreAtTwoCells": 2,
+    "sharedCellsPerCorePair": [
+      2
+    ],
+    "legalOpeningPlacements": 58,
+    "solvableOpeningPlacements": 37,
+    "deadOpeningPlacements": 21
+  },
+  {
+    "level": 41,
+    "inputDigest": "05a97855b31e56b3515c092adf98ba013d410bc916cb5ff52fbcf33a7acae835",
+    "localEntries": [
+      {
+        "continuations": [
+          {
+            "nextChoicesAtOverlap": 1,
+            "solvableNextChoices": 1
+          }
+        ],
+        "overlapCell": [
+          4,
+          1
+        ],
+        "entryCell": [
+          4,
+          0
+        ],
+        "entryBoundaryEdges": 2,
+        "entryFenceEdges": 1,
+        "choicesWithoutFences": 4,
+        "legalChoices": 1,
+        "choicesReachingOverlap": 1,
+        "solvableChoices": 1
+      },
+      {
+        "continuations": [
+          {
+            "nextChoicesAtOverlap": 2,
+            "solvableNextChoices": 1
+          }
+        ],
+        "overlapCell": [
+          4,
+          2
+        ],
+        "entryCell": [
+          4,
+          0
+        ],
+        "entryBoundaryEdges": 2,
+        "entryFenceEdges": 1,
+        "choicesWithoutFences": 4,
+        "legalChoices": 1,
+        "choicesReachingOverlap": 1,
+        "solvableChoices": 1
+      }
+    ],
+    "forcedPlacementsBeforeChoice": 3,
+    "coverageRemainingAfterForcedMoves": 12,
+    "fenceImpacts": [
+      {
+        "a": [
+          3,
+          0
+        ],
+        "b": [
+          4,
+          0
+        ],
+        "excludedPlacements": 2
+      },
+      {
+        "a": [
+          3,
+          1
+        ],
+        "b": [
+          4,
+          1
+        ],
+        "excludedPlacements": 5
+      }
+    ],
+    "activeCells": 22,
+    "boardDensity": 0.733,
+    "enclosedHoleCells": 0,
+    "ordinaryFlowersTouchingCoreAtTwoCells": 2,
+    "sharedCellsPerCorePair": [
+      2
+    ],
+    "legalOpeningPlacements": 64,
+    "solvableOpeningPlacements": 6,
+    "deadOpeningPlacements": 58
+  },
+  {
+    "level": 42,
+    "inputDigest": "5459c43520f9e95302c353eb483e43c7f5409a1fc3f31efe403c24c5407611e8",
+    "localEntries": [
+      {
+        "continuations": [
+          {
+            "nextChoicesAtOverlap": 3,
+            "solvableNextChoices": 3
+          }
+        ],
+        "overlapCell": [
+          0,
+          1
+        ],
+        "entryCell": [
+          1,
+          0
+        ],
+        "entryBoundaryEdges": 2,
+        "entryFenceEdges": 1,
+        "choicesWithoutFences": 9,
+        "legalChoices": 1,
+        "choicesReachingOverlap": 1,
+        "solvableChoices": 1
+      },
+      {
+        "continuations": [
+          {
+            "nextChoicesAtOverlap": 21,
+            "solvableNextChoices": 11
+          },
+          {
+            "nextChoicesAtOverlap": 9,
+            "solvableNextChoices": 3
+          }
+        ],
+        "overlapCell": [
+          1,
+          3
+        ],
+        "entryCell": [
+          0,
+          2
+        ],
+        "entryBoundaryEdges": 1,
+        "entryFenceEdges": 2,
+        "choicesWithoutFences": 18,
+        "legalChoices": 2,
+        "choicesReachingOverlap": 2,
+        "solvableChoices": 2
+      }
+    ],
+    "forcedPlacementsBeforeChoice": 1,
+    "coverageRemainingAfterForcedMoves": 24,
+    "fenceImpacts": [
+      {
+        "a": [
+          0,
+          1
+        ],
+        "b": [
+          0,
+          2
+        ],
+        "excludedPlacements": 8
+      },
+      {
+        "a": [
+          0,
+          2
+        ],
+        "b": [
+          1,
+          2
+        ],
+        "excludedPlacements": 11
+      },
+      {
+        "a": [
+          1,
+          0
+        ],
+        "b": [
+          1,
+          1
+        ],
+        "excludedPlacements": 7
+      }
+    ],
+    "activeCells": 25,
+    "boardDensity": 0.833,
+    "enclosedHoleCells": 0,
+    "ordinaryFlowersTouchingCoreAtTwoCells": 2,
+    "sharedCellsPerCorePair": [
+      1,
+      1
+    ],
+    "legalOpeningPlacements": 130,
+    "solvableOpeningPlacements": 67,
+    "deadOpeningPlacements": 63
+  }
+]

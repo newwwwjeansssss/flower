@@ -1,0 +1,898 @@
+{
+  "rule": "Unlimited repetitions; every offered type used at least once; no enclosed fence; preset group indivisible.",
+  "levels": [
+    {
+      "level": 1,
+      "role": "入门",
+      "shapes": {
+        "square4": 2
+      },
+      "original": {
+        "solutions": 1,
+        "placements": 3,
+        "dead": 1,
+        "deadPct": 33.3,
+        "playableCells": 8,
+        "pieces": 2,
+        "types": 1
+      },
+      "trial": {
+        "solutions": 1,
+        "placements": 3,
+        "dead": 1,
+        "deadPct": 33.3,
+        "playableCells": 8,
+        "pieces": 2,
+        "types": 1
+      },
+      "originalSha256": "d068ca8aeed71526ae389d9bb548282630cbc4d1929bd7f114b21d5c03382c65"
+    },
+    {
+      "level": 2,
+      "role": "转角入门",
+      "shapes": {
+        "L4": 2
+      },
+      "original": {
+        "solutions": 2,
+        "placements": 8,
+        "dead": 4,
+        "deadPct": 50.0,
+        "playableCells": 8,
+        "pieces": 2,
+        "types": 1
+      },
+      "trial": {
+        "solutions": 2,
+        "placements": 8,
+        "dead": 4,
+        "deadPct": 50.0,
+        "playableCells": 8,
+        "pieces": 2,
+        "types": 1
+      },
+      "originalSha256": "95690f8b75da6fd1a4498a29fcd8e01df259cab65f7ccf917ded69956b54ebd5"
+    },
+    {
+      "level": 3,
+      "role": "转角练习",
+      "shapes": {
+        "L4": 3
+      },
+      "original": {
+        "solutions": 6,
+        "placements": 34,
+        "dead": 20,
+        "deadPct": 58.8,
+        "playableCells": 12,
+        "pieces": 3,
+        "types": 2
+      },
+      "trial": {
+        "solutions": 5,
+        "placements": 16,
+        "dead": 5,
+        "deadPct": 31.2,
+        "playableCells": 12,
+        "pieces": 3,
+        "types": 1
+      },
+      "originalSha256": "49e8a3d68d43e93bf37e382a0b532695ddeb3a760e879d74a16f122ef1b1d51f"
+    },
+    {
+      "level": 4,
+      "role": "直条练习",
+      "shapes": {
+        "I4": 4
+      },
+      "original": {
+        "solutions": 4,
+        "placements": 19,
+        "dead": 8,
+        "deadPct": 42.1,
+        "playableCells": 20,
+        "pieces": 5,
+        "types": 2
+      },
+      "trial": {
+        "solutions": 2,
+        "placements": 8,
+        "dead": 0,
+        "deadPct": 0.0,
+        "playableCells": 16,
+        "pieces": 4,
+        "types": 1
+      },
+      "originalSha256": "1de0c4a9eb037c4d0472d9ce45222f2146e42e507c5b0334a2934ff57aba581e",
+      "orientationOnlySolutions": {
+        "horizontal": 0,
+        "vertical": 0
+      },
+      "interleaving": {
+        "horizontalPieces": 2,
+        "verticalPieces": 2,
+        "separatingCuts": [],
+        "directionChoiceCells": 4
+      }
+    },
+    {
+      "level": 5,
+      "role": "丁字入门",
+      "shapes": {
+        "T4": 3
+      },
+      "original": {
+        "solutions": 1,
+        "placements": 8,
+        "dead": 4,
+        "deadPct": 50.0,
+        "playableCells": 16,
+        "pieces": 4,
+        "types": 2
+      },
+      "trial": {
+        "solutions": 1,
+        "placements": 6,
+        "dead": 3,
+        "deadPct": 50.0,
+        "playableCells": 12,
+        "pieces": 3,
+        "types": 1
+      },
+      "originalSha256": "8e11ed62c87d3740a1deaee4c4a641b8ec98643472c42e9c1ecd69d0cf7e4f69"
+    },
+    {
+      "level": 6,
+      "role": "轻挑战",
+      "shapes": {
+        "L4": 4
+      },
+      "original": {
+        "solutions": 3,
+        "placements": 67,
+        "dead": 57,
+        "deadPct": 85.1,
+        "playableCells": 20,
+        "pieces": 5,
+        "types": 2
+      },
+      "trial": {
+        "solutions": 8,
+        "placements": 23,
+        "dead": 11,
+        "deadPct": 47.8,
+        "playableCells": 16,
+        "pieces": 4,
+        "types": 1
+      },
+      "originalSha256": "cbb514451b5f58290f496cde251132cc358979dd5461e60356c8a9015ad56ce5"
+    },
+    {
+      "level": 7,
+      "role": "折线初见",
+      "shapes": {
+        "square4": 2,
+        "Z4": 2
+      },
+      "original": {
+        "solutions": 4,
+        "placements": 30,
+        "dead": 16,
+        "deadPct": 53.3,
+        "playableCells": 16,
+        "pieces": 4,
+        "types": 2
+      },
+      "trial": {
+        "solutions": 4,
+        "placements": 25,
+        "dead": 12,
+        "deadPct": 48.0,
+        "playableCells": 16,
+        "pieces": 4,
+        "types": 2
+      },
+      "originalSha256": "ccd6042edb3a21973fe2f898d8cbda1672c73add8645fabd8e755c0f55d04e2c"
+    },
+    {
+      "level": 8,
+      "role": "纵横直条",
+      "shapes": {
+        "I4": 5
+      },
+      "original": {
+        "solutions": 3,
+        "placements": 16,
+        "dead": 7,
+        "deadPct": 43.8,
+        "playableCells": 20,
+        "pieces": 5,
+        "types": 2
+      },
+      "trial": {
+        "solutions": 1,
+        "placements": 10,
+        "dead": 5,
+        "deadPct": 50.0,
+        "playableCells": 20,
+        "pieces": 5,
+        "types": 1
+      },
+      "originalSha256": "a09be41c878c5a183063f1e949158c3d6c8afec2fca0903d91c5accf0a93e370",
+      "orientationOnlySolutions": {
+        "horizontal": 0,
+        "vertical": 0
+      },
+      "interleaving": {
+        "horizontalPieces": 2,
+        "verticalPieces": 3,
+        "separatingCuts": [],
+        "directionChoiceCells": 5
+      }
+    },
+    {
+      "level": 9,
+      "role": "转角练习",
+      "shapes": {
+        "L3": 5
+      },
+      "original": {
+        "solutions": 19,
+        "placements": 31,
+        "dead": 3,
+        "deadPct": 9.7,
+        "playableCells": 24,
+        "pieces": 6,
+        "types": 2
+      },
+      "trial": {
+        "solutions": 4,
+        "placements": 32,
+        "dead": 17,
+        "deadPct": 53.1,
+        "playableCells": 15,
+        "pieces": 5,
+        "types": 1
+      },
+      "originalSha256": "1ee5beb0bfdf3a6ffe422d79af587aac84b210b4ba35bfc5bd68354a0ae1aea2"
+    },
+    {
+      "level": 10,
+      "role": "转角回落",
+      "shapes": {
+        "L3": 4
+      },
+      "original": {
+        "solutions": 1,
+        "placements": 8,
+        "dead": 4,
+        "deadPct": 50.0,
+        "playableCells": 16,
+        "pieces": 4,
+        "types": 2
+      },
+      "trial": {
+        "solutions": 4,
+        "placements": 24,
+        "dead": 16,
+        "deadPct": 66.7,
+        "playableCells": 12,
+        "pieces": 4,
+        "types": 1
+      },
+      "originalSha256": "53033e09931e8895e25d7fa8a6a860b26ca3dd64c3207536f5a4d0f9069f025f"
+    },
+    {
+      "level": 11,
+      "role": "固定花朵初见",
+      "shapes": {
+        "L4": 3
+      },
+      "original": {
+        "solutions": 10,
+        "placements": 49,
+        "dead": 27,
+        "deadPct": 55.1,
+        "playableCells": 16,
+        "pieces": 4,
+        "types": 2
+      },
+      "trial": {
+        "solutions": 5,
+        "placements": 16,
+        "dead": 5,
+        "deadPct": 31.2,
+        "playableCells": 12,
+        "pieces": 3,
+        "types": 1
+      },
+      "originalSha256": "e921eda2c5f2af40c4c4f3e9e1220a0b9c1eb42695f2ee6935bbb6360035014b"
+    },
+    {
+      "level": 12,
+      "role": "固定花朵轻挑战",
+      "shapes": {
+        "I4": 5
+      },
+      "original": {
+        "solutions": 2,
+        "placements": 51,
+        "dead": 42,
+        "deadPct": 82.4,
+        "playableCells": 20,
+        "pieces": 5,
+        "types": 2
+      },
+      "trial": {
+        "solutions": 1,
+        "placements": 10,
+        "dead": 5,
+        "deadPct": 50.0,
+        "playableCells": 20,
+        "pieces": 5,
+        "types": 1
+      },
+      "originalSha256": "b16981777919cebee313f9d72633056bf6f2edc0e4771eaa65e439833955aace",
+      "orientationOnlySolutions": {
+        "horizontal": 0,
+        "vertical": 0
+      },
+      "interleaving": {
+        "horizontalPieces": 2,
+        "verticalPieces": 3,
+        "separatingCuts": [],
+        "directionChoiceCells": 5
+      }
+    },
+    {
+      "level": 13,
+      "role": "双转角回落",
+      "shapes": {
+        "L3": 3,
+        "L4": 3
+      },
+      "original": {
+        "solutions": 10,
+        "placements": 29,
+        "dead": 9,
+        "deadPct": 31.0,
+        "playableCells": 24,
+        "pieces": 6,
+        "types": 2
+      },
+      "trial": {
+        "solutions": 46,
+        "placements": 77,
+        "dead": 25,
+        "deadPct": 32.5,
+        "playableCells": 21,
+        "pieces": 6,
+        "types": 2
+      },
+      "originalSha256": "17f7785ab6f9962417c722285e4487f1f306fcc9fc94bc8395a6cb6c6223d6b6"
+    },
+    {
+      "level": 14,
+      "role": "围栏初见",
+      "shapes": {
+        "L3": 3
+      },
+      "original": {
+        "solutions": 2,
+        "placements": 15,
+        "dead": 10,
+        "deadPct": 66.7,
+        "playableCells": 9,
+        "pieces": 3,
+        "types": 2
+      },
+      "trial": {
+        "solutions": 1,
+        "placements": 7,
+        "dead": 4,
+        "deadPct": 57.1,
+        "playableCells": 9,
+        "pieces": 3,
+        "types": 1
+      },
+      "originalSha256": "196a6eba78244cc9ce33b3eac56ea951ff7852ca644870578f0874500ee68e82",
+      "fenceEffect": {
+        "withoutFencesSolutions": 2,
+        "withoutFencesPlacements": 10,
+        "additionalSolutionsPerRemovedFence": [
+          1
+        ]
+      }
+    },
+    {
+      "level": 15,
+      "role": "双转角挑战",
+      "shapes": {
+        "L3": 3,
+        "L4": 3
+      },
+      "original": {
+        "solutions": 4,
+        "placements": 59,
+        "dead": 47,
+        "deadPct": 79.7,
+        "playableCells": 32,
+        "pieces": 8,
+        "types": 2
+      },
+      "trial": {
+        "solutions": 21,
+        "placements": 71,
+        "dead": 36,
+        "deadPct": 50.7,
+        "playableCells": 21,
+        "pieces": 6,
+        "types": 2
+      },
+      "originalSha256": "9e42d57d0b02de94348ea43b058435fb82d7f648fdf5e061c624b7d1c8491bf3"
+    },
+    {
+      "level": 16,
+      "role": "五格轻挑战",
+      "shapes": {
+        "L3": 2,
+        "U5": 2
+      },
+      "original": {
+        "solutions": 1,
+        "placements": 99,
+        "dead": 90,
+        "deadPct": 90.9,
+        "playableCells": 45,
+        "pieces": 9,
+        "types": 3
+      },
+      "trial": {
+        "solutions": 1,
+        "placements": 13,
+        "dead": 9,
+        "deadPct": 69.2,
+        "playableCells": 16,
+        "pieces": 4,
+        "types": 2
+      },
+      "originalSha256": "9634201a6e6742d06b3df0e2d275b4d7352f765db93e27738dd414588d2d524a",
+      "fenceEffect": {
+        "withoutFencesSolutions": 2,
+        "withoutFencesPlacements": 16,
+        "additionalSolutionsPerRemovedFence": [
+          1
+        ]
+      }
+    },
+    {
+      "level": 17,
+      "role": "绕栏转角",
+      "shapes": {
+        "L4": 5
+      },
+      "original": {
+        "solutions": 1,
+        "placements": 18,
+        "dead": 12,
+        "deadPct": 66.7,
+        "playableCells": 24,
+        "pieces": 6,
+        "types": 2
+      },
+      "trial": {
+        "solutions": 5,
+        "placements": 23,
+        "dead": 10,
+        "deadPct": 43.5,
+        "playableCells": 20,
+        "pieces": 5,
+        "types": 1
+      },
+      "originalSha256": "4ed072b4c04abbd71195f56e6f168f0d9169202aef8e70d148c0f74e50e5119e",
+      "fenceEffect": {
+        "withoutFencesSolutions": 23,
+        "withoutFencesPlacements": 33,
+        "additionalSolutionsPerRemovedFence": [
+          1,
+          15
+        ]
+      }
+    },
+    {
+      "level": 18,
+      "role": "围栏花径",
+      "shapes": {
+        "L3": 6
+      },
+      "original": {
+        "solutions": 10,
+        "placements": 33,
+        "dead": 13,
+        "deadPct": 39.4,
+        "playableCells": 36,
+        "pieces": 9,
+        "types": 2
+      },
+      "trial": {
+        "solutions": 3,
+        "placements": 31,
+        "dead": 18,
+        "deadPct": 58.1,
+        "playableCells": 18,
+        "pieces": 6,
+        "types": 1
+      },
+      "originalSha256": "e5c6dd78657e86342c6038d9e59b45165ecb6b3c34e277ceed7f03bd36580874",
+      "fenceEffect": {
+        "withoutFencesSolutions": 8,
+        "withoutFencesPlacements": 42,
+        "additionalSolutionsPerRemovedFence": [
+          2,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "level": 19,
+      "role": "阶段挑战",
+      "shapes": {
+        "T4": 4,
+        "L3": 2
+      },
+      "original": {
+        "solutions": 7,
+        "placements": 97,
+        "dead": 79,
+        "deadPct": 81.4,
+        "playableCells": 40,
+        "pieces": 10,
+        "types": 3
+      },
+      "trial": {
+        "solutions": 21,
+        "placements": 64,
+        "dead": 27,
+        "deadPct": 42.2,
+        "playableCells": 22,
+        "pieces": 6,
+        "types": 2
+      },
+      "originalSha256": "4bd9dd31d6aa28791a4506f72c3e85883ef8b85c3f5eaada2084dc753a2a54ea",
+      "fenceEffect": {
+        "withoutFencesSolutions": 38,
+        "withoutFencesPlacements": 94,
+        "additionalSolutionsPerRemovedFence": [
+          6,
+          1,
+          6
+        ]
+      }
+    },
+    {
+      "level": 20,
+      "role": "阶段回落",
+      "shapes": {
+        "L4": 5
+      },
+      "original": {
+        "solutions": 1,
+        "placements": 19,
+        "dead": 13,
+        "deadPct": 68.4,
+        "playableCells": 24,
+        "pieces": 6,
+        "types": 2
+      },
+      "trial": {
+        "solutions": 5,
+        "placements": 32,
+        "dead": 17,
+        "deadPct": 53.1,
+        "playableCells": 20,
+        "pieces": 5,
+        "types": 1
+      },
+      "originalSha256": "73c966b764d440b63d570cc221ba7cea3ac222e79b78d54575f736552dff67f9",
+      "fenceEffect": {
+        "withoutFencesSolutions": 13,
+        "withoutFencesPlacements": 52,
+        "additionalSolutionsPerRemovedFence": [
+          1,
+          4,
+          1
+        ]
+      }
+    },
+    {
+      "level": 21,
+      "role": "预置花盆初见",
+      "shapes": {
+        "L3": 3
+      },
+      "original": {
+        "solutions": 1,
+        "placements": 6,
+        "dead": 3,
+        "deadPct": 50.0,
+        "playableCells": 12,
+        "pieces": 3,
+        "types": 2
+      },
+      "trial": {
+        "solutions": 1,
+        "placements": 4,
+        "dead": 1,
+        "deadPct": 25.0,
+        "playableCells": 9,
+        "pieces": 3,
+        "types": 1
+      },
+      "originalSha256": "7d63fc5bdca52ef28d573f9a610cf5aa19f1170f5f7095a699d0c307d5f8febf"
+    },
+    {
+      "level": 22,
+      "role": "双转角练习",
+      "shapes": {
+        "L3": 3,
+        "L4": 3
+      },
+      "original": {
+        "solutions": 1,
+        "placements": 32,
+        "dead": 26,
+        "deadPct": 81.2,
+        "playableCells": 24,
+        "pieces": 6,
+        "types": 3
+      },
+      "trial": {
+        "solutions": 11,
+        "placements": 72,
+        "dead": 44,
+        "deadPct": 61.1,
+        "playableCells": 21,
+        "pieces": 6,
+        "types": 2
+      },
+      "originalSha256": "22e824525ca2a29bae2cbd9f2de83f7c99aa3a3ff6a955e9239b7385c8cced0c",
+      "fenceEffect": {
+        "withoutFencesSolutions": 53,
+        "withoutFencesPlacements": 94,
+        "additionalSolutionsPerRemovedFence": [
+          9,
+          5,
+          8
+        ]
+      },
+      "presetHint": {
+        "cells": [
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        "completions": [
+          {
+            "assetId": "L4",
+            "cells": [
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                5,
+                1
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "level": 23,
+      "role": "绕花转角",
+      "shapes": {
+        "L4": 6
+      },
+      "original": {
+        "solutions": 1,
+        "placements": 29,
+        "dead": 22,
+        "deadPct": 75.9,
+        "playableCells": 28,
+        "pieces": 7,
+        "types": 3
+      },
+      "trial": {
+        "solutions": 15,
+        "placements": 42,
+        "dead": 18,
+        "deadPct": 42.9,
+        "playableCells": 24,
+        "pieces": 6,
+        "types": 1
+      },
+      "originalSha256": "56bc4539056d9776b875965d2ba0c836b161070ae42faf34ee7b169146f66c9c",
+      "fenceEffect": {
+        "withoutFencesSolutions": 19,
+        "withoutFencesPlacements": 59,
+        "additionalSolutionsPerRemovedFence": [
+          2,
+          1
+        ]
+      },
+      "presetHint": {
+        "cells": [
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "completions": [
+          {
+            "assetId": "L4",
+            "cells": [
+              [
+                3,
+                3
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                5
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "level": 24,
+      "role": "预置转角挑战",
+      "shapes": {
+        "L3": 4,
+        "L4": 3
+      },
+      "original": {
+        "solutions": 1,
+        "placements": 50,
+        "dead": 42,
+        "deadPct": 84.0,
+        "playableCells": 32,
+        "pieces": 8,
+        "types": 3
+      },
+      "trial": {
+        "solutions": 11,
+        "placements": 64,
+        "dead": 32,
+        "deadPct": 50.0,
+        "playableCells": 24,
+        "pieces": 7,
+        "types": 2
+      },
+      "originalSha256": "6acb949c59a8fdd42442ee27fbac5dff35409b729d2664647607b9808f8a92f4",
+      "fenceEffect": {
+        "withoutFencesSolutions": 56,
+        "withoutFencesPlacements": 98,
+        "additionalSolutionsPerRemovedFence": [
+          4,
+          13,
+          7,
+          3
+        ]
+      }
+    },
+    {
+      "level": 25,
+      "role": "阶段挑战",
+      "shapes": {
+        "T4": 4,
+        "L4": 4
+      },
+      "original": {
+        "solutions": 1,
+        "placements": 47,
+        "dead": 37,
+        "deadPct": 78.7,
+        "playableCells": 40,
+        "pieces": 10,
+        "types": 3
+      },
+      "trial": {
+        "solutions": 15,
+        "placements": 97,
+        "dead": 65,
+        "deadPct": 67.0,
+        "playableCells": 32,
+        "pieces": 8,
+        "types": 2
+      },
+      "originalSha256": "0babe9717bc3fb270e06e7bd33892bd885af03a7c9484aafc5b782d12479bba7",
+      "fenceEffect": {
+        "withoutFencesSolutions": 103,
+        "withoutFencesPlacements": 165,
+        "additionalSolutionsPerRemovedFence": [
+          1,
+          13,
+          5,
+          6,
+          3,
+          3
+        ]
+      },
+      "presetHint": {
+        "cells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "completions": [
+          {
+            "assetId": "T4",
+            "cells": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                0,
+                4
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

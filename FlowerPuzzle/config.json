@@ -1,0 +1,21 @@
+{
+  "projectName": "花田拼图关卡编辑器",
+  "canvas": {
+    "width": 390,
+    "height": 844
+  },
+  "defaults": {
+    "boardWidth": 6,
+    "boardHeight": 6
+  },
+  "scoreMode": "按花田规模、目标数量、形状相似度、围栏与解数量综合计算",
+  "resourceTheme": "花块形状库",
+  "unlockRule": "完成当前关卡后解锁下一关",
+  "palette": {
+    "background": "#fff8ee",
+    "board": "#dfead0",
+    "inactive": "#f4eadb",
+    "fenceHint": "#7ea66c",
+    "fenceChallenge": "#cf6f61"
+  }
+}

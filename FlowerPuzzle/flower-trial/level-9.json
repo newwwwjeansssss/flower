@@ -1,0 +1,275 @@
+{
+  "id": 200009,
+  "sourceId": 9,
+  "collection": "flower-trial",
+  "name": "试玩 09 · 转角练习",
+  "type": "flower-puzzle",
+  "width": 5,
+  "height": 4,
+  "activeCells": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      3
+    ]
+  ],
+  "given": {
+    "fixedFlowers": [],
+    "presetPots": []
+  },
+  "fences": [],
+  "targets": [
+    {
+      "id": "target-1",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R0",
+      "variant": "R0",
+      "origin": [
+        0,
+        0
+      ],
+      "solutionCells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "target-2",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R180",
+      "variant": "R180",
+      "origin": [
+        1,
+        0
+      ],
+      "solutionCells": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "target-3",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R0",
+      "variant": "R0",
+      "origin": [
+        3,
+        0
+      ],
+      "solutionCells": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "target-4",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R90",
+      "variant": "R90",
+      "origin": [
+        3,
+        2
+      ],
+      "solutionCells": [
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "target-5",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R180",
+      "variant": "R180",
+      "origin": [
+        1,
+        2
+      ],
+      "solutionCells": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "assetId": "L3",
+      "count": 5
+    }
+  ],
+  "timeLimit": 120
+}

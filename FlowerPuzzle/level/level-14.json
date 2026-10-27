@@ -1,0 +1,200 @@
+{
+  "id": 14,
+  "name": "栅栏小课堂",
+  "type": "flower-puzzle",
+  "width": 3,
+  "height": 3,
+  "activeCells": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "given": {
+    "fixedFlowers": [],
+    "presetPots": []
+  },
+  "fences": [
+    {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0
+      ],
+      "role": "hint"
+    },
+    {
+      "a": [
+        1,
+        0
+      ],
+      "b": [
+        1,
+        1
+      ],
+      "role": "hint"
+    }
+  ],
+  "targets": [
+    {
+      "id": "target-1",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "origin": [
+        1,
+        0
+      ],
+      "transform": "MR270",
+      "variant": "MR270",
+      "solutionCells": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "target-2",
+      "assetId": "I3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "transform": "MR270",
+      "variant": "MR270",
+      "solutionCells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "target-3",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "origin": [
+        1,
+        1
+      ],
+      "transform": "MR90",
+      "variant": "MR90",
+      "solutionCells": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "assetId": "L3",
+      "count": 2
+    },
+    {
+      "assetId": "I3",
+      "count": 1
+    }
+  ],
+  "timeLimit": 120
+}

@@ -1,0 +1,187 @@
+{
+  "id": 200014,
+  "sourceId": 14,
+  "collection": "flower-trial",
+  "name": "试玩 14 · 围栏初见",
+  "type": "flower-puzzle",
+  "width": 4,
+  "height": 3,
+  "activeCells": [
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      2
+    ]
+  ],
+  "given": {
+    "fixedFlowers": [],
+    "presetPots": []
+  },
+  "fences": [
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        2,
+        2
+      ],
+      "role": "hint"
+    }
+  ],
+  "targets": [
+    {
+      "id": "target-1",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R0",
+      "variant": "R0",
+      "origin": [
+        0,
+        1
+      ],
+      "solutionCells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "target-2",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R270",
+      "variant": "R270",
+      "origin": [
+        2,
+        1
+      ],
+      "solutionCells": [
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "target-3",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R90",
+      "variant": "R90",
+      "origin": [
+        2,
+        0
+      ],
+      "solutionCells": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "assetId": "L3",
+      "count": 3
+    }
+  ],
+  "timeLimit": 120
+}

@@ -1,4 +1,18 @@
-# 花田 · 冰冻块与机关门美术交付
+# 花田 · 关卡编辑器与美术资源
+
+## 关卡编辑器完整源码
+
+编辑器位于 [FlowerPuzzle/](FlowerPuzzle/)，包含网页编辑器与试玩运行逻辑、机关门/冰冻/砖块机制、全部现有关卡与资源、Python 原生窗口源码、工具和测试。
+
+- macOS：进入 `FlowerPuzzle`，双击 `Start.command` 或执行 `./start.sh`。需 Python 3.11–3.13，首次启动自动安装依赖。
+- Windows：运行 `FlowerPuzzle/start.exe`（现有启动程序）。
+- 浏览器预览：在 `FlowerPuzzle` 中执行 `python3 -m http.server 8000`，访问 `http://localhost:8000`；浏览器模式不能保存至本地文件。
+- JavaScript 测试：在 `FlowerPuzzle` 中执行 `node --test tests/*.test.js`。
+- Python 测试：执行 `python3 -m unittest discover -s tests -p 'test_*.py'`。
+
+详细功能、配置规则和使用方法见 [编辑器说明](FlowerPuzzle/README.md)。本机虚拟环境与缓存不纳入仓库。
+
+## 冰冻块与机关门美术交付
 
 2026-10-22 整理。核心建议重画 4 张：冰冻触发格、冰冻覆盖、机关端子、门栏；冻时道具建议同步更新。
 
@@ -27,4 +41,4 @@
 
 ## 文件说明
 
-本仓库保存本次美术资料，不包含完整 Unity 工程或 APK。04-code 为相关表现层代码快照，供美术与程序对照；不是可独立运行的项目。PNG 保留原始内容，说明写在截图图注中。.meta 用于记录导入参数，避免重复导入同 GUID。
+本仓库包含 FlowerPuzzle 关卡编辑器与本次美术资料，不包含完整 Unity 工程或 APK。04-code 为相关表现层代码快照，供美术与程序对照；不是可独立运行的项目。PNG 保留原始内容，说明写在截图图注中。.meta 用于记录导入参数，避免重复导入同 GUID。
