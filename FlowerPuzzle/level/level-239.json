@@ -1,9 +1,9 @@
 {
   "id": 239,
-  "name": "第239关 · 先花后冰",
+  "name": "第239关 · 霜边相扣",
   "type": "flower-puzzle",
   "collection": "flower",
-  "width": 6,
+  "width": 7,
   "height": 9,
   "timeLimit": 150,
   "activeCells": [
@@ -20,19 +20,19 @@
       0
     ],
     [
+      5,
+      0
+    ],
+    [
+      6,
+      0
+    ],
+    [
       2,
       1
     ],
     [
-      3,
-      1
-    ],
-    [
-      4,
-      1
-    ],
-    [
-      5,
+      6,
       1
     ],
     [
@@ -49,10 +49,6 @@
     ],
     [
       4,
-      2
-    ],
-    [
-      5,
       2
     ],
     [
@@ -582,25 +578,25 @@
       "transform": "MR270",
       "variant": "MR270",
       "origin": [
-        3,
-        1
+        4,
+        0
       ],
       "solutionCells": [
         [
-          3,
-          1
-        ],
-        [
           4,
-          1
+          0
         ],
         [
           5,
-          1
+          0
         ],
         [
-          5,
-          2
+          6,
+          0
+        ],
+        [
+          6,
+          1
         ]
       ]
     },
@@ -707,39 +703,84 @@
       "count": 3
     }
   ],
-  "bricks": [
-    {
-      "cell": [
-        2,
-        1
-      ],
-      "count": 4
-    },
-    {
-      "cell": [
-        4,
-        2
-      ],
-      "count": 4
-    }
-  ],
+  "bricks": [],
   "frozen": [
     {
       "cell": [
-        1,
-        6
+        2,
+        0
       ],
-      "seconds": 6,
-      "charges": 0
-    },
-    {
-      "cell": [
-        1,
-        5
-      ],
-      "seconds": 6,
+      "seconds": 5,
       "charges": 0
     }
   ],
-  "gates": []
+  "gates": [],
+  "overlapCells": [
+    {
+      "cell": [
+        4,
+        0
+      ],
+      "count": 2
+    }
+  ],
+  "design": {
+    "stage": "常规重叠",
+    "decision": "先确定冰点所在花块与另一花块的共角关系，再落下冰点侧；冻结时可继续补齐其他区域。",
+    "landmark": "轮廓转折处",
+    "tier": "normal",
+    "overlapPattern": "共角",
+    "solutionTargetIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "sharedTargets": [
+      8,
+      9
+    ],
+    "localOverlapPlacementCounts": [
+      2
+    ],
+    "note": "替代旧砖块关；保持形状种类与参考花块数，重叠仅需2次，无内部空洞。",
+    "iceMistakeWitnesses": [
+      {
+        "cell": [
+          2,
+          0
+        ],
+        "wrongCells": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "continuations": [
+          0,
+          1
+        ],
+        "seconds": 5
+      }
+    ]
+  }
 }

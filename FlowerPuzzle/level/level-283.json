@@ -1,6 +1,6 @@
 {
   "id": 283,
-  "name": "第283关 · 环角开花",
+  "name": "第283关 · 环角相依",
   "type": "flower-puzzle",
   "collection": "flower",
   "width": 5,
@@ -136,19 +136,15 @@
       7
     ],
     [
-      1,
-      8
-    ],
-    [
       2,
       8
     ],
     [
-      1,
+      2,
       9
     ],
     [
-      2,
+      3,
       9
     ]
   ],
@@ -156,7 +152,30 @@
     "fixedFlowers": [],
     "presetPots": []
   },
-  "fences": [],
+  "fences": [
+    {
+      "a": [
+        2,
+        7
+      ],
+      "b": [
+        3,
+        7
+      ],
+      "role": "hint"
+    },
+    {
+      "a": [
+        2,
+        7
+      ],
+      "b": [
+        2,
+        6
+      ],
+      "role": "hint"
+    }
+  ],
   "targets": [
     {
       "id": "target-1",
@@ -178,20 +197,20 @@
       "transform": "R0",
       "variant": "R0",
       "origin": [
-        1,
+        2,
         8
       ],
       "solutionCells": [
         [
-          1,
+          2,
           8
         ],
         [
-          1,
+          2,
           9
         ],
         [
-          2,
+          3,
           9
         ]
       ]
@@ -621,22 +640,46 @@
       "count": 12
     }
   ],
-  "bricks": [
+  "bricks": [],
+  "frozen": [],
+  "gates": [],
+  "overlapCells": [
     {
       "cell": [
-        1,
-        4
+        2,
+        8
       ],
-      "count": 4
-    },
-    {
-      "cell": [
-        3,
-        1
-      ],
-      "count": 5
+      "count": 2
     }
   ],
-  "frozen": [],
-  "gates": []
+  "design": {
+    "stage": "常规重叠",
+    "decision": "从边沿短槽判断两个花块的共角位置，先安排一侧，再用另一侧补满重叠次数。",
+    "landmark": "边沿短槽",
+    "tier": "normal",
+    "overlapPattern": "共角",
+    "solutionTargetIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sharedTargets": [
+      0,
+      1
+    ],
+    "localOverlapPlacementCounts": [
+      2
+    ],
+    "note": "替代旧砖块关；保持形状种类与参考花块数，重叠仅需2次，无内部空洞。",
+    "iceMistakeWitnesses": []
+  }
 }

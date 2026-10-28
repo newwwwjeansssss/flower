@@ -1,6 +1,6 @@
 {
   "id": 219,
-  "name": "第219关 · 砖隙回廊",
+  "name": "第219关 · 错角回廊",
   "type": "flower-puzzle",
   "collection": "flower",
   "width": 5,
@@ -24,14 +24,6 @@
       1
     ],
     [
-      0,
-      2
-    ],
-    [
-      1,
-      2
-    ],
-    [
       3,
       2
     ],
@@ -74,6 +66,10 @@
     [
       4,
       4
+    ],
+    [
+      0,
+      5
     ],
     [
       1,
@@ -172,7 +168,52 @@
     "fixedFlowers": [],
     "presetPots": []
   },
-  "fences": [],
+  "fences": [
+    {
+      "a": [
+        1,
+        3
+      ],
+      "b": [
+        2,
+        3
+      ],
+      "role": "hint"
+    },
+    {
+      "a": [
+        1,
+        4
+      ],
+      "b": [
+        0,
+        4
+      ],
+      "role": "hint"
+    },
+    {
+      "a": [
+        1,
+        4
+      ],
+      "b": [
+        1,
+        5
+      ],
+      "role": "hint"
+    },
+    {
+      "a": [
+        2,
+        3
+      ],
+      "b": [
+        2,
+        4
+      ],
+      "role": "hint"
+    }
+  ],
   "targets": [
     {
       "id": "target-1",
@@ -475,24 +516,24 @@
       "variant": "MR180",
       "origin": [
         0,
-        2
+        3
       ],
       "solutionCells": [
-        [
-          0,
-          2
-        ],
-        [
-          1,
-          2
-        ],
         [
           0,
           3
         ],
         [
+          1,
+          3
+        ],
+        [
           0,
           4
+        ],
+        [
+          0,
+          5
         ]
       ]
     },
@@ -641,15 +682,44 @@
       "count": 10
     }
   ],
-  "bricks": [
+  "bricks": [],
+  "frozen": [],
+  "gates": [],
+  "overlapCells": [
     {
       "cell": [
-        3,
-        8
+        1,
+        3
       ],
-      "count": 3
+      "count": 2
     }
   ],
-  "frozen": [],
-  "gates": []
+  "design": {
+    "stage": "常规重叠",
+    "decision": "从边沿短槽判断两个花块的共角位置，先安排一侧，再用另一侧补满重叠次数。",
+    "landmark": "边沿短槽",
+    "tier": "easy",
+    "overlapPattern": "共角",
+    "solutionTargetIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "sharedTargets": [
+      6,
+      1
+    ],
+    "localOverlapPlacementCounts": [
+      2
+    ],
+    "note": "替代旧砖块关；保持形状种类与参考花块数，重叠仅需2次，无内部空洞。",
+    "iceMistakeWitnesses": []
+  }
 }

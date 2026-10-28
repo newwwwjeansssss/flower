@@ -1,10 +1,10 @@
 {
   "id": 215,
-  "name": "第215关 · 双阶解锁",
+  "name": "第215关 · 双阶叠门",
   "type": "flower-puzzle",
   "collection": "flower",
   "width": 6,
-  "height": 10,
+  "height": 11,
   "timeLimit": 165,
   "activeCells": [
     [
@@ -164,31 +164,50 @@
       7
     ],
     [
-      3,
-      7
-    ],
-    [
-      4,
-      7
+      0,
+      8
     ],
     [
       1,
       8
     ],
     [
-      3,
-      8
+      0,
+      9
     ],
     [
-      3,
-      9
+      0,
+      10
     ]
   ],
   "given": {
     "fixedFlowers": [],
     "presetPots": []
   },
-  "fences": [],
+  "fences": [
+    {
+      "a": [
+        0,
+        8
+      ],
+      "b": [
+        0,
+        7
+      ],
+      "role": "hint"
+    },
+    {
+      "a": [
+        1,
+        7
+      ],
+      "b": [
+        1,
+        6
+      ],
+      "role": "hint"
+    }
+  ],
   "targets": [
     {
       "id": "target-1",
@@ -674,25 +693,25 @@
       "transform": "MR180",
       "variant": "MR180",
       "origin": [
-        3,
-        7
+        0,
+        8
       ],
       "solutionCells": [
         [
-          3,
-          7
-        ],
-        [
-          4,
-          7
-        ],
-        [
-          3,
+          0,
           8
         ],
         [
-          3,
+          1,
+          8
+        ],
+        [
+          0,
           9
+        ],
+        [
+          0,
+          10
         ]
       ]
     }
@@ -707,33 +726,18 @@
       "count": 3
     }
   ],
-  "bricks": [
-    {
-      "cell": [
-        3,
-        7
-      ],
-      "count": 3
-    },
-    {
-      "cell": [
-        0,
-        6
-      ],
-      "count": 3
-    }
-  ],
+  "bricks": [],
   "frozen": [],
   "gates": [
     {
       "id": 1,
       "a": [
-        4,
-        7
+        0,
+        8
       ],
       "b": [
-        3,
-        9
+        0,
+        10
       ],
       "circuit": "single",
       "edges": [
@@ -813,5 +817,43 @@
         }
       ]
     }
-  ]
+  ],
+  "overlapCells": [
+    {
+      "cell": [
+        1,
+        8
+      ],
+      "count": 2
+    }
+  ],
+  "design": {
+    "stage": "常规重叠",
+    "decision": "先辨认白花连接块与相邻花块的共角位置，接通白花后利用门后的跨边空间补齐。",
+    "landmark": "边沿短槽",
+    "tier": "normal",
+    "overlapPattern": "共角",
+    "solutionTargetIndices": [
+      2,
+      3,
+      6,
+      7,
+      8,
+      1,
+      5,
+      9,
+      10,
+      0,
+      4
+    ],
+    "sharedTargets": [
+      10,
+      8
+    ],
+    "localOverlapPlacementCounts": [
+      2
+    ],
+    "note": "替代旧砖块关；保持形状种类与参考花块数，重叠仅需2次，无内部空洞。",
+    "iceMistakeWitnesses": []
+  }
 }

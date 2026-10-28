@@ -1,9 +1,9 @@
 {
   "id": 119,
-  "name": "第119关 · 冷霜破局",
+  "name": "第119关 · 霜下共角",
   "type": "flower-puzzle",
   "collection": "flower",
-  "width": 5,
+  "width": 6,
   "height": 11,
   "timeLimit": 150,
   "activeCells": [
@@ -20,31 +20,35 @@
       0
     ],
     [
+      4,
+      0
+    ],
+    [
+      5,
+      0
+    ],
+    [
       2,
       1
     ],
     [
       3,
       1
-    ],
-    [
-      0,
-      2
-    ],
-    [
-      1,
-      2
-    ],
-    [
-      2,
-      2
-    ],
-    [
-      3,
-      2
     ],
     [
       4,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
       2
     ],
     [
@@ -53,14 +57,6 @@
     ],
     [
       1,
-      3
-    ],
-    [
-      2,
-      3
-    ],
-    [
-      3,
       3
     ],
     [
@@ -172,7 +168,19 @@
     "fixedFlowers": [],
     "presetPots": []
   },
-  "fences": [],
+  "fences": [
+    {
+      "a": [
+        3,
+        1
+      ],
+      "b": [
+        2,
+        1
+      ],
+      "role": "hint"
+    }
+  ],
   "targets": [
     {
       "id": "target-1",
@@ -520,25 +528,25 @@
       "transform": "MR0",
       "variant": "MR0",
       "origin": [
-        2,
-        2
+        3,
+        0
       ],
       "solutionCells": [
         [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
           3,
-          2
+          1
         ],
         [
           4,
-          2
-        ],
-        [
-          2,
-          3
-        ],
-        [
-          3,
-          3
+          1
         ]
       ]
     },
@@ -645,39 +653,83 @@
       "count": 3
     }
   ],
-  "bricks": [
-    {
-      "cell": [
-        3,
-        2
-      ],
-      "count": 3
-    },
-    {
-      "cell": [
-        1,
-        6
-      ],
-      "count": 3
-    }
-  ],
+  "bricks": [],
   "frozen": [
     {
       "cell": [
-        3,
-        9
+        1,
+        0
       ],
-      "seconds": 6,
-      "charges": 0
-    },
-    {
-      "cell": [
-        3,
-        6
-      ],
-      "seconds": 6,
+      "seconds": 5,
       "charges": 0
     }
   ],
-  "gates": []
+  "gates": [],
+  "overlapCells": [
+    {
+      "cell": [
+        3,
+        1
+      ],
+      "count": 2
+    }
+  ],
+  "design": {
+    "stage": "常规重叠",
+    "decision": "先确定冰点所在花块与另一花块的共角关系，再落下冰点侧；冻结时可继续补齐其他区域。",
+    "landmark": "边沿短槽",
+    "tier": "normal",
+    "overlapPattern": "共角",
+    "solutionTargetIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "sharedTargets": [
+      7,
+      9
+    ],
+    "localOverlapPlacementCounts": [
+      4
+    ],
+    "note": "替代旧砖块关；保持形状种类与参考花块数，重叠仅需2次，无内部空洞。",
+    "iceMistakeWitnesses": [
+      {
+        "cell": [
+          1,
+          0
+        ],
+        "wrongCells": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "continuations": [
+          0,
+          1
+        ],
+        "seconds": 5
+      }
+    ]
+  }
 }

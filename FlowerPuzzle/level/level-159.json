@@ -1,6 +1,6 @@
 {
   "id": 159,
-  "name": "第159关 · 门前碎砖",
+  "name": "第159关 · 门前叠枝",
   "type": "flower-puzzle",
   "collection": "flower",
   "width": 6,
@@ -9,10 +9,6 @@
   "activeCells": [
     [
       1,
-      0
-    ],
-    [
-      2,
       0
     ],
     [
@@ -37,10 +33,6 @@
     ],
     [
       3,
-      1
-    ],
-    [
-      4,
       1
     ],
     [
@@ -172,7 +164,30 @@
     "fixedFlowers": [],
     "presetPots": []
   },
-  "fences": [],
+  "fences": [
+    {
+      "a": [
+        1,
+        2
+      ],
+      "b": [
+        2,
+        2
+      ],
+      "role": "hint"
+    },
+    {
+      "a": [
+        1,
+        2
+      ],
+      "b": [
+        1,
+        3
+      ],
+      "role": "hint"
+    }
+  ],
   "targets": [
     {
       "id": "target-1",
@@ -428,13 +443,17 @@
       "transform": "MR90",
       "variant": "MR90",
       "origin": [
-        2,
+        1,
         0
       ],
       "solutionCells": [
         [
-          2,
+          1,
           0
+        ],
+        [
+          1,
+          1
         ],
         [
           2,
@@ -442,10 +461,6 @@
         ],
         [
           3,
-          1
-        ],
-        [
-          4,
           1
         ]
       ]
@@ -645,32 +660,17 @@
       "count": 3
     }
   ],
-  "bricks": [
-    {
-      "cell": [
-        3,
-        1
-      ],
-      "count": 3
-    },
-    {
-      "cell": [
-        4,
-        0
-      ],
-      "count": 3
-    }
-  ],
+  "bricks": [],
   "frozen": [],
   "gates": [
     {
       "id": 1,
       "a": [
         2,
-        0
+        1
       ],
       "b": [
-        4,
+        3,
         1
       ],
       "circuit": "single",
@@ -771,5 +771,50 @@
         }
       ]
     }
-  ]
+  ],
+  "overlapCells": [
+    {
+      "cell": [
+        1,
+        0
+      ],
+      "count": 2
+    },
+    {
+      "cell": [
+        1,
+        1
+      ],
+      "count": 2
+    }
+  ],
+  "design": {
+    "stage": "常规重叠",
+    "decision": "先辨认白花连接块与相邻花块的共边位置，接通白花后利用门后的跨边空间补齐。",
+    "landmark": "边沿短槽",
+    "tier": "normal",
+    "overlapPattern": "共边",
+    "solutionTargetIndices": [
+      0,
+      1,
+      4,
+      5,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9
+    ],
+    "sharedTargets": [
+      5,
+      9
+    ],
+    "localOverlapPlacementCounts": [
+      3,
+      10
+    ],
+    "note": "替代旧砖块关；保持形状种类与参考花块数，重叠仅需2次，无内部空洞。",
+    "iceMistakeWitnesses": []
+  }
 }

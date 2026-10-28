@@ -8,11 +8,11 @@
   "timeLimit": 135,
   "activeCells": [
     [
-      3,
+      2,
       0
     ],
     [
-      4,
+      3,
       0
     ],
     [
@@ -25,10 +25,6 @@
     ],
     [
       3,
-      1
-    ],
-    [
-      4,
       1
     ],
     [
@@ -120,7 +116,52 @@
     "fixedFlowers": [],
     "presetPots": []
   },
-  "fences": [],
+  "fences": [
+    {
+      "a": [
+        3,
+        1
+      ],
+      "b": [
+        2,
+        1
+      ],
+      "role": "hint"
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        2,
+        0
+      ],
+      "role": "hint"
+    },
+    {
+      "a": [
+        3,
+        2
+      ],
+      "b": [
+        2,
+        2
+      ],
+      "role": "hint"
+    },
+    {
+      "a": [
+        3,
+        2
+      ],
+      "b": [
+        3,
+        3
+      ],
+      "role": "hint"
+    }
+  ],
   "targets": [
     {
       "id": "target-1",
@@ -294,20 +335,20 @@
       "transform": "R180",
       "variant": "R180",
       "origin": [
-        3,
+        2,
         0
       ],
       "solutionCells": [
+        [
+          2,
+          0
+        ],
         [
           3,
           0
         ],
         [
-          4,
-          0
-        ],
-        [
-          4,
+          3,
           1
         ]
       ]
@@ -471,15 +512,43 @@
       "count": 9
     }
   ],
-  "bricks": [
+  "bricks": [],
+  "frozen": [],
+  "gates": [],
+  "overlapCells": [
     {
       "cell": [
-        0,
-        5
+        3,
+        1
       ],
       "count": 2
     }
   ],
-  "frozen": [],
-  "gates": []
+  "design": {
+    "stage": "常规重叠",
+    "decision": "从边沿短槽判断两个花块的共角位置，先安排一侧，再用另一侧补满重叠次数。",
+    "landmark": "边沿短槽",
+    "tier": "easy",
+    "overlapPattern": "共角",
+    "solutionTargetIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "sharedTargets": [
+      4,
+      1
+    ],
+    "localOverlapPlacementCounts": [
+      2
+    ],
+    "note": "替代旧砖块关；保持形状种类与参考花块数，重叠仅需2次，无内部空洞。",
+    "iceMistakeWitnesses": []
+  }
 }

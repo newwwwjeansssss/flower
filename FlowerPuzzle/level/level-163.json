@@ -1,9 +1,9 @@
 {
   "id": 163,
-  "name": "第163关 · 错峰开花",
+  "name": "第163关 · 错位双角",
   "type": "flower-puzzle",
   "collection": "flower",
-  "width": 5,
+  "width": 6,
   "height": 8,
   "timeLimit": 135,
   "activeCells": [
@@ -28,11 +28,11 @@
       1
     ],
     [
-      3,
+      4,
       1
     ],
     [
-      4,
+      5,
       1
     ],
     [
@@ -41,14 +41,6 @@
     ],
     [
       2,
-      2
-    ],
-    [
-      3,
-      2
-    ],
-    [
-      4,
       2
     ],
     [
@@ -132,7 +124,19 @@
     "fixedFlowers": [],
     "presetPots": []
   },
-  "fences": [],
+  "fences": [
+    {
+      "a": [
+        3,
+        0
+      ],
+      "b": [
+        2,
+        0
+      ],
+      "role": "hint"
+    }
+  ],
   "targets": [
     {
       "id": "target-1",
@@ -192,21 +196,21 @@
       "transform": "R0",
       "variant": "R0",
       "origin": [
-        3,
-        1
+        4,
+        0
       ],
       "solutionCells": [
         [
-          3,
-          1
-        ],
-        [
-          3,
-          2
+          4,
+          0
         ],
         [
           4,
-          2
+          1
+        ],
+        [
+          5,
+          1
         ]
       ]
     },
@@ -521,22 +525,52 @@
       "count": 10
     }
   ],
-  "bricks": [
+  "bricks": [],
+  "frozen": [],
+  "gates": [],
+  "overlapCells": [
     {
       "cell": [
-        1,
-        5
+        4,
+        0
       ],
-      "count": 3
+      "count": 2
     },
     {
       "cell": [
-        1,
-        4
+        4,
+        1
       ],
-      "count": 4
+      "count": 2
     }
   ],
-  "frozen": [],
-  "gates": []
+  "design": {
+    "stage": "常规重叠",
+    "decision": "从边沿短槽判断两个花块的共边位置，先安排一侧，再用另一侧补满重叠次数。",
+    "landmark": "边沿短槽",
+    "tier": "normal",
+    "overlapPattern": "共边",
+    "solutionTargetIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "sharedTargets": [
+      1,
+      0
+    ],
+    "localOverlapPlacementCounts": [
+      2,
+      2
+    ],
+    "note": "替代旧砖块关；保持形状种类与参考花块数，重叠仅需2次，无内部空洞。",
+    "iceMistakeWitnesses": []
+  }
 }

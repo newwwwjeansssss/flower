@@ -1,9 +1,9 @@
 {
   "id": 207,
-  "name": "第207关 · 碎砖冷湾",
+  "name": "第207关 · 冰湾交汇",
   "type": "flower-puzzle",
   "collection": "flower",
-  "width": 7,
+  "width": 8,
   "height": 9,
   "timeLimit": 180,
   "activeCells": [
@@ -120,10 +120,6 @@
       5
     ],
     [
-      5,
-      5
-    ],
-    [
       0,
       6
     ],
@@ -144,10 +140,6 @@
       6
     ],
     [
-      5,
-      6
-    ],
-    [
       6,
       6
     ],
@@ -173,6 +165,10 @@
     ],
     [
       6,
+      7
+    ],
+    [
+      7,
       7
     ],
     [
@@ -200,7 +196,19 @@
     "fixedFlowers": [],
     "presetPots": []
   },
-  "fences": [],
+  "fences": [
+    {
+      "a": [
+        5,
+        7
+      ],
+      "b": [
+        4,
+        7
+      ],
+      "role": "hint"
+    }
+  ],
   "targets": [
     {
       "id": "target-1",
@@ -704,21 +712,21 @@
       "transform": "R0",
       "variant": "R0",
       "origin": [
-        5,
-        5
+        6,
+        6
       ],
       "solutionCells": [
         [
-          5,
-          5
-        ],
-        [
-          5,
+          6,
           6
         ],
         [
           6,
-          6
+          7
+        ],
+        [
+          7,
+          7
         ]
       ]
     },
@@ -771,61 +779,82 @@
       "count": 4
     }
   ],
-  "bricks": [
+  "bricks": [],
+  "frozen": [
     {
       "cell": [
         5,
         7
       ],
-      "count": 4
-    },
-    {
-      "cell": [
-        1,
-        1
-      ],
-      "count": 4
-    },
-    {
-      "cell": [
-        1,
-        5
-      ],
-      "count": 4
-    },
-    {
-      "cell": [
-        1,
-        3
-      ],
-      "count": 4
-    }
-  ],
-  "frozen": [
-    {
-      "cell": [
-        3,
-        7
-      ],
-      "seconds": 8,
-      "charges": 0
-    },
-    {
-      "cell": [
-        3,
-        3
-      ],
-      "seconds": 8,
-      "charges": 0
-    },
-    {
-      "cell": [
-        2,
-        7
-      ],
-      "seconds": 8,
+      "seconds": 6,
       "charges": 0
     }
   ],
-  "gates": []
+  "gates": [],
+  "overlapCells": [
+    {
+      "cell": [
+        6,
+        7
+      ],
+      "count": 2
+    }
+  ],
+  "design": {
+    "stage": "常规重叠",
+    "decision": "先确定冰点所在花块与另一花块的共角关系，再落下冰点侧；冻结时可继续补齐其他区域。",
+    "landmark": "边沿短槽",
+    "tier": "hard",
+    "overlapPattern": "共角",
+    "solutionTargetIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "sharedTargets": [
+      11,
+      12
+    ],
+    "localOverlapPlacementCounts": [
+      3
+    ],
+    "note": "替代旧砖块关；保持形状种类与参考花块数，重叠仅需2次，无内部空洞。",
+    "iceMistakeWitnesses": [
+      {
+        "cell": [
+          5,
+          7
+        ],
+        "wrongCells": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ]
+        ],
+        "continuations": [
+          1,
+          2
+        ],
+        "seconds": 6
+      }
+    ]
+  }
 }
