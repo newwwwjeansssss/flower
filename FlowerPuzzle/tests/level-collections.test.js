@@ -39,7 +39,7 @@ test('save writes separate directories and catalog; undoing deletion does not de
  store.selectCollection('shape-fill');store.deleteLevel(100002);store.undo();await store.save();
  assert.deepEqual(removed,[]);
  assert.ok(writes.has('level/level-1.json'));assert.ok(writes.has('shape-fill/level-1.json'));
- assert.deepEqual(JSON.parse(writes.get('level-catalog.json')), {flower:['level-1.json'],'shape-fill':['level-1.json','level-2.json'],'flower-trial':[]});
+ assert.deepEqual(JSON.parse(writes.get('level-catalog.json')), {flower:['level-1.json'],'shape-fill':['level-1.json','level-2.json'],'flower-trial':[],'ice-intro':[]});
 });
 
 test('trial edits save only changed levels and stay separate through switch, reload, add and undo',async()=>{

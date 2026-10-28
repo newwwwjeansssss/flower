@@ -5,11 +5,11 @@ import { inferRequirements } from '../../authoring-rules.js?v=20261022-mechanics
 import { bindAuthoringUI } from './editor-authoring-ui.js?v=20261022-mechanics-audit';
 let authoringUI=null;
 import * as gameLogic from "../../gamelogic.js?v=20261022-mechanics-audit";
-import { EditorStore } from "./editor-store.js?v=20261026-trial";
+import { EditorStore } from "./editor-store.js?v=20261028-ice-intro";
 import { activateInspectorTab, addLevelForEditing, openLevelInspector } from "./editor-level-actions.js?v=20261022-mechanics-audit";
 import { applyEditorTool, beginGivenSelection, editorCanvasPointToIndex, extendGivenSelection, extendTargetDraft, fenceNeighborIndex, isTextEditingTarget, renderAssetLibrary, renderEditorScene } from "./editor-tools.js?v=20261022-mechanics-audit";
 import { LocalFiles } from "./local-files.js?v=20261022-mechanics-audit";
-import { loadLevelCollections, levelsInCollection } from "./level-collections.js?v=20261026-trial";
+import { loadLevelCollections, levelsInCollection } from "./level-collections.js?v=20261028-ice-intro";
 
 const { calculateDifficulty, getEndActions } = gameLogic;
 window.FlowerGameLogic = gameLogic;

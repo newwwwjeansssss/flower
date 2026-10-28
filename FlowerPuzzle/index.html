@@ -19,7 +19,7 @@
     <main class="workspace">
     <aside class="level-strip" aria-label="关卡列表">
       <div class="level-sidebar-head"><span><strong>关卡列表</strong><small id="level-count">1 个关卡</small></span><button id="add-level" aria-label="添加关卡">＋</button></div>
-      <label class="collection-switch" for="level-collection">关卡集<select id="level-collection"><option value="flower">花田</option><option value="shape-fill">Shape Fill</option><option value="flower-trial">花田试玩 · 1–25 / 31–42关</option></select></label>
+      <label class="collection-switch" for="level-collection">关卡集<select id="level-collection"><option value="flower">花田</option><option value="shape-fill">Shape Fill</option><option value="flower-trial">花田试玩 · 1–25 / 31–42关</option><option value="ice-intro">冰冻引导 · 6关</option></select></label>
       <div class="level-list" aria-live="polite"></div>
     </aside>
       <aside class="sidebar" aria-label="资源库">
@@ -44,6 +44,6 @@
   <div id="cell-context-menu" class="cell-context-menu" hidden role="menu" aria-label="格子编辑菜单"><button data-cell-action="restore" role="menuitem">还原格子</button><button data-cell-action="remove" class="danger-item" role="menuitem">删除格子</button><button data-cell-action="preset-pot" role="menuitem">设置预置花盆</button><button data-cell-action="fixed-flower" role="menuitem">添加固定花朵</button><div class="context-separator"></div><span>添加 / 删除栅栏</span><div class="fence-directions"><button data-fence-direction="up" role="menuitem">↑ 上</button><button data-fence-direction="down" role="menuitem">↓ 下</button><button data-fence-direction="left" role="menuitem">← 左</button><button data-fence-direction="right" role="menuitem">→ 右</button></div></div>
   <dialog id="asset-dialog" class="asset-dialog"><form id="asset-form" method="dialog"><div class="dialog-head"><strong id="asset-dialog-title">添加花块形状</strong><button value="cancel" aria-label="关闭">×</button></div><input id="asset-original-id" type="hidden"><div class="field-row"><div class="field"><label>资源 ID</label><input id="asset-id" class="control" required pattern="[a-zA-Z0-9_-]+"></div><div class="field"><label>名称</label><input id="asset-name" class="control" required></div></div><div class="field-row"><div class="field"><label>颜色</label><input id="asset-color" class="control" value="#4f8cff"></div><div class="field"><label>形状格 JSON</label><input id="asset-shape" class="control" value="[[0,0]]"></div></div><div class="field-row"><div class="field"><label>类型</label><select id="asset-type" class="control"><option value="custom">花块形状</option></select></div><div class="field"><label>难度权重</label><input id="asset-weight" class="control" type="number" min="0.1" step="0.1" value="1"></div></div><div class="field"><label>本地图片（可选）</label><input id="asset-image" class="control" type="file" accept="image/*"></div><div class="dialog-actions"><button id="delete-asset" type="button" class="danger">删除资源</button><span></span><button value="cancel">取消</button><button id="confirm-asset" type="submit" class="primary">确认</button></div><p id="asset-error" class="form-error"></p></form></dialog>
   <script src="flower-runtime.js?v=20261022-mechanics-audit"></script>
-  <script type="module" src="static/js/editor.js?v=20261026-trial"></script>
+  <script type="module" src="static/js/editor.js?v=20261028-ice-intro"></script>
 </body>
 </html>

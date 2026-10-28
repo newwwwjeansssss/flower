@@ -2,7 +2,8 @@ import { sortLevelFiles } from '../../levellist.js?v=20261022-mechanics-audit';
 export const COLLECTIONS = [
   { id: 'flower', label: '花田', directory: 'level', idBase: 0 },
   { id: 'shape-fill', label: 'Shape Fill', directory: 'shape-fill', idBase: 100000 },
-  { id: 'flower-trial', label: '花田试玩 · 1–25 / 31–42关', directory: 'flower-trial', idBase: 200000 }
+  { id: 'flower-trial', label: '花田试玩 · 1–25 / 31–42关', directory: 'flower-trial', idBase: 200000 },
+  { id: 'ice-intro', label: '冰冻引导 · 6关', directory: 'ice-intro', idBase: 500000 }
 ];
 export const collectionOf = level => level?.collection || 'flower';
 export const levelsInCollection = (levels, collection) => levels.filter(level => collectionOf(level) === collection);

@@ -1,0 +1,287 @@
+{
+  "id": 500003,
+  "sourceId": 3,
+  "collection": "ice-intro",
+  "name": "F03 · 给角落留位置",
+  "type": "flower-puzzle",
+  "width": 5,
+  "height": 4,
+  "timeLimit": 120,
+  "activeCells": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      3
+    ]
+  ],
+  "given": {
+    "fixedFlowers": [],
+    "presetPots": []
+  },
+  "fences": [],
+  "targets": [
+    {
+      "id": "target-1",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R90",
+      "variant": "R90",
+      "origin": [
+        0,
+        0
+      ],
+      "solutionCells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "target-2",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R90",
+      "variant": "R90",
+      "origin": [
+        2,
+        0
+      ],
+      "solutionCells": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "target-3",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R270",
+      "variant": "R270",
+      "origin": [
+        0,
+        1
+      ],
+      "solutionCells": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "target-4",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R90",
+      "variant": "R90",
+      "origin": [
+        2,
+        2
+      ],
+      "solutionCells": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "target-5",
+      "assetId": "L3",
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "transform": "R270",
+      "variant": "R270",
+      "origin": [
+        3,
+        2
+      ],
+      "solutionCells": [
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "assetId": "L3",
+      "count": 5
+    }
+  ],
+  "bricks": [],
+  "frozen": [
+    {
+      "cell": [
+        1,
+        1
+      ],
+      "seconds": 5,
+      "charges": 0
+    }
+  ],
+  "gates": []
+}

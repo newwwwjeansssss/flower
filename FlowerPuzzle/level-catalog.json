@@ -681,5 +681,13 @@
     "level-40.json",
     "level-41.json",
     "level-42.json"
+  ],
+  "ice-intro": [
+    "level-1.json",
+    "level-2.json",
+    "level-3.json",
+    "level-4.json",
+    "level-5.json",
+    "level-6.json"
   ]
 }
