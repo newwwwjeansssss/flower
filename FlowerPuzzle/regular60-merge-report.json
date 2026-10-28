@@ -1,0 +1,12 @@
+{
+  "sourceProject": "/Users/inke/Documents/ChatGPT/花田/gameleveleditor/FlowerPuzzle",
+  "originalLevels": 500,
+  "newLevels": 60,
+  "mergedLevels": 560,
+  "firstNewId": 65,
+  "lastNewId": 295,
+  "unchangedPrefix": 64,
+  "sourceModified": false,
+  "allOriginalGameplayContentPreserved": true,
+  "output": "/Users/inke/Documents/ChatGPT/花田/analysis/regular60-merged-20261028"
+}
